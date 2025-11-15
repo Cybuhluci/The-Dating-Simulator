@@ -1,0 +1,50 @@
+Ripped and submitted by AdelTheQadi
+
+This model uses multiple UV Maps, I recommend importing the model with all maps applied to a single mesh
+----------------
+Sonic Frontiers Texture Key
+	- This key doesn't *always* apply. Different materials can use different shaders that completely change what a color channel does
+----------------
+_adb
+	- RGB Albedo Color
+
+_fal
+	- RGB Frensel Color
+
+_flw	
+	- Directional flow map for fur
+	- RG = +X +Y coordinate displacement
+	- B = Displacement intensity (inverted)
+
+_fur
+	- RGB = Fur color overlay
+	- A = Fur Alpha
+
+_nrm
+	- Tangent Space Normal Map (+X, +Y, +Z)
+
+_prm
+	- R = Specular
+	- G = Smoothness
+	- B = Metallic
+	- A = Ambient Occlusion
+	
+_nra
+	- Alpha masked normal map
+	- RGB = Tangent Space Normal Map (+X, +Y, +Z)
+	- A = mask for *_spt reflection
+
+_spt
+	- Specular reflection texture
+	- Mapped using reflection or normal texture coordinate
+
+_ref
+	- Reflection texture
+	- Mapped using reflection or normal texture coordinate
+
+_msk
+	- Effect mask
+	- R = Overlay mask
+	- G = Transparency mask
+	- B = Effect intensity mask
+	

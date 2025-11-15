@@ -1,0 +1,14 @@
+TO DO:
+Note: This is a list of tasks to be done for the game development. The tasks are NOT listed in order of priority.
+
+1. remkae the movement system to fit with casual walking instead of stage based speed gameplay
+2. add the Umamusume style training system as a 3d open world system
+3. and the OC playermodel
+4. add the racing system
+5. add the dialogue system
+6. add the dating sim system
+7. add the social media, social link and phone system
+8. add a bunch of Umamusume and sonic music tracks to fill the game with music
+9. Metropolis Mall/Metro system for South City
+10. add extreme gear
+11. add school and dorms and racetracks

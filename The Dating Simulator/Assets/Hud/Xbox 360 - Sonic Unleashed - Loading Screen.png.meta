@@ -1,0 +1,2340 @@
+fileFormatVersion: 2
+guid: c291c0412463f4f438188a3f1a9b75c7
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_0
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 92
+        width: 913
+        height: 514
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 433af30092fdaf64fa13808eba46d985
+      internalID: -2121186075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_1
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 595
+        width: 512
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0ace52bba1c8e64badfdaadb916a67d
+      internalID: -465175064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_2
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 461
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df124759a50702d4883360d0e6e163f9
+      internalID: 510367885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_3
+      rect:
+        serializedVersion: 2
+        x: 1566
+        y: 571
+        width: 6
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f502628afa46eff44a3ccd13179d08ec
+      internalID: -746687943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_4
+      rect:
+        serializedVersion: 2
+        x: 1579
+        y: 579
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20e206313755af743b01ba2f71dac0c9
+      internalID: 386816313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_5
+      rect:
+        serializedVersion: 2
+        x: 1591
+        y: 571
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19d5975dda678ca4eab64fcf1f21810d
+      internalID: 1950891895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_6
+      rect:
+        serializedVersion: 2
+        x: 1605
+        y: 571
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4b57028f0e1581479766e9e72cb3c64
+      internalID: 534114823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_7
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 571
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44d467d7475de6f4e9ef73377bdaacbb
+      internalID: -1605698639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_8
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 571
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b32456dc05945e9458012a2e64f7b429
+      internalID: -1685672600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_9
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 578
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c04b9a3468890fd4f8929f39c3e7dd35
+      internalID: 852737925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_10
+      rect:
+        serializedVersion: 2
+        x: 1663
+        y: 571
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97b55823e7a9b67438147a0b68b8846c
+      internalID: -520659222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_11
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 571
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cc84d3964190bc4a96e79a636c02813
+      internalID: 1736325924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_12
+      rect:
+        serializedVersion: 2
+        x: 1689
+        y: 573
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e98466ff34e881142939e08ac45bb819
+      internalID: 2136643003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_13
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 572
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8377aa289f3921040ae43eb0760fb23d
+      internalID: -1019313714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_14
+      rect:
+        serializedVersion: 2
+        x: 1731
+        y: 576
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53ae4cba779aa1d4da8545fd30eda4e9
+      internalID: -166751932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_15
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 571
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d46009824c75a28479aa83c6a0965f34
+      internalID: 1971711308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_16
+      rect:
+        serializedVersion: 2
+        x: 1718
+        y: 568
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0130cfef20e981448fe43d5f93fdce0
+      internalID: 2051147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_17
+      rect:
+        serializedVersion: 2
+        x: 1748
+        y: 571
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e0b49bb1df02d74786924713b88f5d3
+      internalID: 698141755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_18
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 550
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da112e27690862547ba6e6a08de09681
+      internalID: -684031540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_19
+      rect:
+        serializedVersion: 2
+        x: 1578
+        y: 550
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecb57ed4d81ce29468cb5d88301032f2
+      internalID: 1368290278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_20
+      rect:
+        serializedVersion: 2
+        x: 1591
+        y: 550
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16573967e9590354683e4acb6e641b1c
+      internalID: -164934533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_21
+      rect:
+        serializedVersion: 2
+        x: 1605
+        y: 550
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8dda9904660f3c478431819016f4a9e
+      internalID: -157059323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_22
+      rect:
+        serializedVersion: 2
+        x: 1619
+        y: 550
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c99d8f92ba26c444bae9509f9093c209
+      internalID: -803457543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_23
+      rect:
+        serializedVersion: 2
+        x: 1634
+        y: 550
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ea71f0c0fe62da48a8ff93c49693b1d
+      internalID: -1267642463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_24
+      rect:
+        serializedVersion: 2
+        x: 1647
+        y: 550
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cadb0e284f81da4789a53b42049598d
+      internalID: 448691447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_25
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 550
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56e0dfe73db0fb24b96b2ce148935b14
+      internalID: 2051546393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_26
+      rect:
+        serializedVersion: 2
+        x: 1675
+        y: 550
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d02491c41c63044b9689aa34d2e15ee
+      internalID: -429866234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_27
+      rect:
+        serializedVersion: 2
+        x: 1689
+        y: 550
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6095dab5519127c40892d5d289de7679
+      internalID: -1991197173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_28
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 550
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66ee18f78b7336a4b85ecce0299bfec9
+      internalID: 1821358851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_29
+      rect:
+        serializedVersion: 2
+        x: 1718
+        y: 547
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c40160bed3d50d45904ba9f4ee3d1a4
+      internalID: 306039589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_30
+      rect:
+        serializedVersion: 2
+        x: 1731
+        y: 551
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9b5ea8d966e3374c95d61c241d7c2a9
+      internalID: -1019801049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_31
+      rect:
+        serializedVersion: 2
+        x: 1745
+        y: 554
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcffbea2dca1d784f9d3b404dff14cfe
+      internalID: 2014932648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_32
+      rect:
+        serializedVersion: 2
+        x: 1759
+        y: 551
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ed7b4fa6e1bb3547827daac09ac23e8
+      internalID: 148612979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_33
+      rect:
+        serializedVersion: 2
+        x: 1774
+        y: 550
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f52d16ef68573a4c8d358bfd223912e
+      internalID: -1088597099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_34
+      rect:
+        serializedVersion: 2
+        x: 1788
+        y: 550
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b02a2985987b94c4888c0396cdee6507
+      internalID: -837890734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_35
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 529
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 716a18488e4e2c849bbf316a1de2bdb8
+      internalID: -1601440233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_36
+      rect:
+        serializedVersion: 2
+        x: 1577
+        y: 529
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27f09205069268c418aecd07fcdf82ac
+      internalID: -2035879800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_37
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 529
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 038d557a178a84c4dac15989558ef00d
+      internalID: -1140241163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_38
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 529
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b48fcb17ce915c34487db9af4b3363ac
+      internalID: 1090767443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_39
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 529
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27b636c58e806ba46b39c125fb901830
+      internalID: 1535928099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_40
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 529
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a38805ef4dbbada46b52dcfba924f85e
+      internalID: 1695973346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_41
+      rect:
+        serializedVersion: 2
+        x: 1647
+        y: 529
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0ad69858e125514896d34321d24f9e6
+      internalID: -175728512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_42
+      rect:
+        serializedVersion: 2
+        x: 1662
+        y: 529
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f06ec5fad27a62244be9eed147c69a9e
+      internalID: -1877259570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_43
+      rect:
+        serializedVersion: 2
+        x: 1676
+        y: 529
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b8c68f0ddc0ba7408e1be42ee089d23
+      internalID: 586708200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_44
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 529
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9492cca16374eba448dda060ab4919b7
+      internalID: 2038908669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_45
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 529
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 627779f6e028f18468b8b3d89897e9d2
+      internalID: -283655129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_46
+      rect:
+        serializedVersion: 2
+        x: 1718
+        y: 529
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76ce9f346808e484799ab9e5385bb986
+      internalID: -664392651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_47
+      rect:
+        serializedVersion: 2
+        x: 1731
+        y: 529
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26d97d7b3e0b0b44e8f9e401987b8c9c
+      internalID: 510217926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_48
+      rect:
+        serializedVersion: 2
+        x: 1745
+        y: 529
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7887d2559afca2d49813daf60cee56c7
+      internalID: -299197273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_49
+      rect:
+        serializedVersion: 2
+        x: 1759
+        y: 529
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c39ae96b63b1afb43b31ce4c93b70628
+      internalID: 1831306996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_50
+      rect:
+        serializedVersion: 2
+        x: 1774
+        y: 529
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac31b492c35aa8a4e88e5cbece57c461
+      internalID: 1243973156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_51
+      rect:
+        serializedVersion: 2
+        x: 1787
+        y: 529
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98a21f704df28204588db64bdedbff6d
+      internalID: -1450569243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_52
+      rect:
+        serializedVersion: 2
+        x: 1564
+        y: 508
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fab03693a0a4f00448e1a46373e39457
+      internalID: -5624918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_53
+      rect:
+        serializedVersion: 2
+        x: 1578
+        y: 508
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a16d12acd7d0ff4d9a903a70edd813f
+      internalID: 458943162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_54
+      rect:
+        serializedVersion: 2
+        x: 1591
+        y: 508
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3146a4716940053418e1ab1957feec94
+      internalID: 373059849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_55
+      rect:
+        serializedVersion: 2
+        x: 1605
+        y: 508
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 632034879b137304eb54048d56592711
+      internalID: -1490622780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_56
+      rect:
+        serializedVersion: 2
+        x: 1619
+        y: 508
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f6249ab4b3c24643beab1684c40d58b
+      internalID: 975017802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_57
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 508
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35b7e33ddfdd7214595e5380d596e965
+      internalID: 514396854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_58
+      rect:
+        serializedVersion: 2
+        x: 1647
+        y: 508
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09973d65d7deaa449b1535915d3030d0
+      internalID: 380698469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_59
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 508
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ab9495f2bb578e40b2fb733f31de048
+      internalID: -1855615752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_60
+      rect:
+        serializedVersion: 2
+        x: 1676
+        y: 508
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae1f78904ba46cb4a9ab5bd015d05644
+      internalID: -1477648731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_61
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 508
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8fb2246114bcf24abfde4369e2f316b
+      internalID: 1297966437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_62
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 508
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4acd30d7713b824a90f475094b27505
+      internalID: -1983375341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_63
+      rect:
+        serializedVersion: 2
+        x: 1718
+        y: 508
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8da3b0a637a413c46821f8b20c5faef9
+      internalID: 2021566773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_64
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 487
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f252ab24f111d84da9b377a7b21342a
+      internalID: 792924142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_65
+      rect:
+        serializedVersion: 2
+        x: 1577
+        y: 487
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80bf7638096ea3b47a7417ac2daf75bb
+      internalID: -410686111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_66
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 487
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 808496daa69839741993672a60d8c8ba
+      internalID: -994101879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_67
+      rect:
+        serializedVersion: 2
+        x: 1605
+        y: 487
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2162d6f1bf3d6f49a6fc0ac1bf654bb
+      internalID: -1556788020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_68
+      rect:
+        serializedVersion: 2
+        x: 1619
+        y: 487
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b7dedada5187e147a1665eff24c2f95
+      internalID: 686974635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_69
+      rect:
+        serializedVersion: 2
+        x: 1634
+        y: 487
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b80edfdbe46454243a308a5fc0d911de
+      internalID: 1885273370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_70
+      rect:
+        serializedVersion: 2
+        x: 1647
+        y: 484
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d45ed5f48aaa1e04d9b94e3b4a10bf66
+      internalID: -1185638092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_71
+      rect:
+        serializedVersion: 2
+        x: 1662
+        y: 487
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65398f28daf1c47478acc51c45ad000f
+      internalID: -1280280764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_72
+      rect:
+        serializedVersion: 2
+        x: 1676
+        y: 487
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17b0575cf8c26d743bb54c7b7f94a1bc
+      internalID: 542848530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_73
+      rect:
+        serializedVersion: 2
+        x: 1691
+        y: 484
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a441093d690404643a5d311f2d7f0bf6
+      internalID: -1358135063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_74
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 487
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 757cca475d9f5a74cb25623e077e13cd
+      internalID: 1022400418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_75
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 487
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b617fcf1d37559842ac6745b8169d122
+      internalID: -1774696336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_76
+      rect:
+        serializedVersion: 2
+        x: 1731
+        y: 487
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5f2ea39e6ebb1b4f889e41779c923dc
+      internalID: -1094266298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_77
+      rect:
+        serializedVersion: 2
+        x: 1746
+        y: 487
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a9e16ec613e093469e3afe14452e3a4
+      internalID: -1197031148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_78
+      rect:
+        serializedVersion: 2
+        x: 1759
+        y: 487
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b012015eebcf4884389fc4842289a5fa
+      internalID: 1531740868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_79
+      rect:
+        serializedVersion: 2
+        x: 1773
+        y: 484
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cbe1f3089a02c442ad8a781781e6fb2
+      internalID: -1712905574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_80
+      rect:
+        serializedVersion: 2
+        x: 1787
+        y: 484
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22c7b8f79c214564b8bd23e347adcd67
+      internalID: -2001130920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_81
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 466
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00a3c6e73ae8a96448e2efcf3b36b4c2
+      internalID: -212076972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_82
+      rect:
+        serializedVersion: 2
+        x: 1578
+        y: 466
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eefa595220138a64a80bb090326fc0b9
+      internalID: 1050737173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_83
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 466
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a29b2a22dce7b0340874b7f306969b24
+      internalID: -124971481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_84
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 466
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c48df614417251847b0dcaaa6e27ecfb
+      internalID: -166294411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_85
+      rect:
+        serializedVersion: 2
+        x: 1619
+        y: 466
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e93dc5b5a89f8145b9f09e45c5b26c1
+      internalID: -293380036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_86
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 466
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a29a274958cf6fa4393b9daf80b2e5dc
+      internalID: -1067882688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_87
+      rect:
+        serializedVersion: 2
+        x: 1647
+        y: 466
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0a613de7e1abb047a0d93061c11b783
+      internalID: -1200068644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_88
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 463
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92b3a9b1dd10dfd4fb1d80a79e545653
+      internalID: -725139646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_89
+      rect:
+        serializedVersion: 2
+        x: 1676
+        y: 466
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66987030d25841943add2fe28b46f983
+      internalID: 681942412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_90
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 466
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d04950ffc0d9a49429578f51f272afbf
+      internalID: -186376968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_91
+      rect:
+        serializedVersion: 2
+        x: 1707
+        y: 463
+        width: 5
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64e598bfb12a8a143bad257d0af17773
+      internalID: -289760358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_92
+      rect:
+        serializedVersion: 2
+        x: 1718
+        y: 466
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df6cfd2ecb73b4049a12e9b4427f35e4
+      internalID: -2083374900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_93
+      rect:
+        serializedVersion: 2
+        x: 1732
+        y: 477
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4210d75fdb8b1f42b15fff97a81b82e
+      internalID: -1377461528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_94
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 350
+        width: 222
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16aaaedc96f802047873d8a6f5e85264
+      internalID: -1043313208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_95
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 269
+        width: 66
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80e94944099ddfa4d806a3fd96aa975a
+      internalID: 921872888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_96
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 135
+        width: 253
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1f3d0767dcc0e44089948c8af3385e7
+      internalID: 263745822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_97
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 204
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 596e38ff7c5bb804f9ba314a45113073
+      internalID: -135613031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_98
+      rect:
+        serializedVersion: 2
+        x: 1601
+        y: 127
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f7b3235f5a682f4ca5dc28bc9c28d81
+      internalID: 1991940779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Loading Screen_99
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 3
+        width: 1280
+        height: 720
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f54296da856c9b438477b1561936253
+      internalID: -1922297685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: bfced919288d7c449b872dfe20d407fd
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Xbox 360 - Sonic Unleashed - Loading Screen_0: -2121186075
+      Xbox 360 - Sonic Unleashed - Loading Screen_1: -465175064
+      Xbox 360 - Sonic Unleashed - Loading Screen_10: -520659222
+      Xbox 360 - Sonic Unleashed - Loading Screen_11: 1736325924
+      Xbox 360 - Sonic Unleashed - Loading Screen_12: 2136643003
+      Xbox 360 - Sonic Unleashed - Loading Screen_13: -1019313714
+      Xbox 360 - Sonic Unleashed - Loading Screen_14: -166751932
+      Xbox 360 - Sonic Unleashed - Loading Screen_15: 1971711308
+      Xbox 360 - Sonic Unleashed - Loading Screen_16: 2051147
+      Xbox 360 - Sonic Unleashed - Loading Screen_17: 698141755
+      Xbox 360 - Sonic Unleashed - Loading Screen_18: -684031540
+      Xbox 360 - Sonic Unleashed - Loading Screen_19: 1368290278
+      Xbox 360 - Sonic Unleashed - Loading Screen_2: 510367885
+      Xbox 360 - Sonic Unleashed - Loading Screen_20: -164934533
+      Xbox 360 - Sonic Unleashed - Loading Screen_21: -157059323
+      Xbox 360 - Sonic Unleashed - Loading Screen_22: -803457543
+      Xbox 360 - Sonic Unleashed - Loading Screen_23: -1267642463
+      Xbox 360 - Sonic Unleashed - Loading Screen_24: 448691447
+      Xbox 360 - Sonic Unleashed - Loading Screen_25: 2051546393
+      Xbox 360 - Sonic Unleashed - Loading Screen_26: -429866234
+      Xbox 360 - Sonic Unleashed - Loading Screen_27: -1991197173
+      Xbox 360 - Sonic Unleashed - Loading Screen_28: 1821358851
+      Xbox 360 - Sonic Unleashed - Loading Screen_29: 306039589
+      Xbox 360 - Sonic Unleashed - Loading Screen_3: -746687943
+      Xbox 360 - Sonic Unleashed - Loading Screen_30: -1019801049
+      Xbox 360 - Sonic Unleashed - Loading Screen_31: 2014932648
+      Xbox 360 - Sonic Unleashed - Loading Screen_32: 148612979
+      Xbox 360 - Sonic Unleashed - Loading Screen_33: -1088597099
+      Xbox 360 - Sonic Unleashed - Loading Screen_34: -837890734
+      Xbox 360 - Sonic Unleashed - Loading Screen_35: -1601440233
+      Xbox 360 - Sonic Unleashed - Loading Screen_36: -2035879800
+      Xbox 360 - Sonic Unleashed - Loading Screen_37: -1140241163
+      Xbox 360 - Sonic Unleashed - Loading Screen_38: 1090767443
+      Xbox 360 - Sonic Unleashed - Loading Screen_39: 1535928099
+      Xbox 360 - Sonic Unleashed - Loading Screen_4: 386816313
+      Xbox 360 - Sonic Unleashed - Loading Screen_40: 1695973346
+      Xbox 360 - Sonic Unleashed - Loading Screen_41: -175728512
+      Xbox 360 - Sonic Unleashed - Loading Screen_42: -1877259570
+      Xbox 360 - Sonic Unleashed - Loading Screen_43: 586708200
+      Xbox 360 - Sonic Unleashed - Loading Screen_44: 2038908669
+      Xbox 360 - Sonic Unleashed - Loading Screen_45: -283655129
+      Xbox 360 - Sonic Unleashed - Loading Screen_46: -664392651
+      Xbox 360 - Sonic Unleashed - Loading Screen_47: 510217926
+      Xbox 360 - Sonic Unleashed - Loading Screen_48: -299197273
+      Xbox 360 - Sonic Unleashed - Loading Screen_49: 1831306996
+      Xbox 360 - Sonic Unleashed - Loading Screen_5: 1950891895
+      Xbox 360 - Sonic Unleashed - Loading Screen_50: 1243973156
+      Xbox 360 - Sonic Unleashed - Loading Screen_51: -1450569243
+      Xbox 360 - Sonic Unleashed - Loading Screen_52: -5624918
+      Xbox 360 - Sonic Unleashed - Loading Screen_53: 458943162
+      Xbox 360 - Sonic Unleashed - Loading Screen_54: 373059849
+      Xbox 360 - Sonic Unleashed - Loading Screen_55: -1490622780
+      Xbox 360 - Sonic Unleashed - Loading Screen_56: 975017802
+      Xbox 360 - Sonic Unleashed - Loading Screen_57: 514396854
+      Xbox 360 - Sonic Unleashed - Loading Screen_58: 380698469
+      Xbox 360 - Sonic Unleashed - Loading Screen_59: -1855615752
+      Xbox 360 - Sonic Unleashed - Loading Screen_6: 534114823
+      Xbox 360 - Sonic Unleashed - Loading Screen_60: -1477648731
+      Xbox 360 - Sonic Unleashed - Loading Screen_61: 1297966437
+      Xbox 360 - Sonic Unleashed - Loading Screen_62: -1983375341
+      Xbox 360 - Sonic Unleashed - Loading Screen_63: 2021566773
+      Xbox 360 - Sonic Unleashed - Loading Screen_64: 792924142
+      Xbox 360 - Sonic Unleashed - Loading Screen_65: -410686111
+      Xbox 360 - Sonic Unleashed - Loading Screen_66: -994101879
+      Xbox 360 - Sonic Unleashed - Loading Screen_67: -1556788020
+      Xbox 360 - Sonic Unleashed - Loading Screen_68: 686974635
+      Xbox 360 - Sonic Unleashed - Loading Screen_69: 1885273370
+      Xbox 360 - Sonic Unleashed - Loading Screen_7: -1605698639
+      Xbox 360 - Sonic Unleashed - Loading Screen_70: -1185638092
+      Xbox 360 - Sonic Unleashed - Loading Screen_71: -1280280764
+      Xbox 360 - Sonic Unleashed - Loading Screen_72: 542848530
+      Xbox 360 - Sonic Unleashed - Loading Screen_73: -1358135063
+      Xbox 360 - Sonic Unleashed - Loading Screen_74: 1022400418
+      Xbox 360 - Sonic Unleashed - Loading Screen_75: -1774696336
+      Xbox 360 - Sonic Unleashed - Loading Screen_76: -1094266298
+      Xbox 360 - Sonic Unleashed - Loading Screen_77: -1197031148
+      Xbox 360 - Sonic Unleashed - Loading Screen_78: 1531740868
+      Xbox 360 - Sonic Unleashed - Loading Screen_79: -1712905574
+      Xbox 360 - Sonic Unleashed - Loading Screen_8: -1685672600
+      Xbox 360 - Sonic Unleashed - Loading Screen_80: -2001130920
+      Xbox 360 - Sonic Unleashed - Loading Screen_81: -212076972
+      Xbox 360 - Sonic Unleashed - Loading Screen_82: 1050737173
+      Xbox 360 - Sonic Unleashed - Loading Screen_83: -124971481
+      Xbox 360 - Sonic Unleashed - Loading Screen_84: -166294411
+      Xbox 360 - Sonic Unleashed - Loading Screen_85: -293380036
+      Xbox 360 - Sonic Unleashed - Loading Screen_86: -1067882688
+      Xbox 360 - Sonic Unleashed - Loading Screen_87: -1200068644
+      Xbox 360 - Sonic Unleashed - Loading Screen_88: -725139646
+      Xbox 360 - Sonic Unleashed - Loading Screen_89: 681942412
+      Xbox 360 - Sonic Unleashed - Loading Screen_9: 852737925
+      Xbox 360 - Sonic Unleashed - Loading Screen_90: -186376968
+      Xbox 360 - Sonic Unleashed - Loading Screen_91: -289760358
+      Xbox 360 - Sonic Unleashed - Loading Screen_92: -2083374900
+      Xbox 360 - Sonic Unleashed - Loading Screen_93: -1377461528
+      Xbox 360 - Sonic Unleashed - Loading Screen_94: -1043313208
+      Xbox 360 - Sonic Unleashed - Loading Screen_95: 921872888
+      Xbox 360 - Sonic Unleashed - Loading Screen_96: 263745822
+      Xbox 360 - Sonic Unleashed - Loading Screen_97: -135613031
+      Xbox 360 - Sonic Unleashed - Loading Screen_98: 1991940779
+      Xbox 360 - Sonic Unleashed - Loading Screen_99: -1922297685
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

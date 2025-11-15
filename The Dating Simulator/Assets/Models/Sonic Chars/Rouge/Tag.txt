@@ -1,0 +1,7 @@
+Game: Sonic Generations
+Subject: Rouge the Bat
+Copyright: Sega, Sonic Team, etc.
+Model Ripper: Random Talking Bush
+Hosting Permissions: The Models Resource
+Notes: Special thanks to chrrox, Link, Kentilan (Kentalin?) and ItsEasyActually for the model importing script. They deserve most of the credit here.
+       The model scale is 3600% by default due to how the script was originally set up, too late to change that now without re-doing everything else.

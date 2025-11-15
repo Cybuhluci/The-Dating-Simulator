@@ -1,0 +1,7 @@
+model come from Sonic the Hedgehog 2006 (XBox 360)
+
+come with 2 formats .SMD and .DAE and support rigged.
+
+
+no need to credit, just use it whatever you want.
+

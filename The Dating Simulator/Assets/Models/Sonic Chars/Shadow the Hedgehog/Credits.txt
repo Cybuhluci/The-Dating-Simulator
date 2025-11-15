@@ -1,0 +1,3 @@
+Model submitted for the Models Resource by Apoc Hedgie. Special thanks to chroxx, Link, ItsEasyActually, and Kentilan for the model-exporting script.
+
+Random Talking Bush also fixed a few issues with the mouth meshes (a misplaced right-side mouth and junk polygons), 13 years later. Better late than never.

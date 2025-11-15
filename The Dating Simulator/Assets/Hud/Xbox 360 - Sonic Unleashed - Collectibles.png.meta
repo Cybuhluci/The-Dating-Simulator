@@ -1,0 +1,3000 @@
+fileFormatVersion: 2
+guid: 2786a4ce0c225d54083bdbaa13d09b8f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 455
+        width: 61
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af0a3d6f34f10f047be0550d9188829a
+      internalID: -1339041125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_1
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 514
+        width: 117
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8321bec2100a994ea297395d0256756
+      internalID: 1780022160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_2
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 515
+        width: 51
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a88f4e6932591224e875c69a5937f0f6
+      internalID: -734777774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_3
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 572
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10c8054b44ea09f49a28e05a9318c67a
+      internalID: 1816888917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_4
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 515
+        width: 61
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2327dce5c500254398bce0c3cb71f8a
+      internalID: -198396853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_5
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 573
+        width: 33
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e6628e0fd35f344a81f21c97cf4f3f2
+      internalID: -171042751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_6
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 573
+        width: 40
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 153c0e3b416702e42bad80ff410037e6
+      internalID: 1705822351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_7
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 515
+        width: 58
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d1ce7593f4439e4bbe232e4d48b8990
+      internalID: 472113513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_8
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 508
+        width: 124
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9edeec744449f244ac956582fe57897
+      internalID: 21877611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_9
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 508
+        width: 120
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d41f81e652de06f4e86762b13cb73adc
+      internalID: 899342569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_10
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 552
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a88b642b3aac7c49ac701f98208dce6
+      internalID: 884913149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_11
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 515
+        width: 56
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c212ba7e657d1d34f922adca6598be6d
+      internalID: 2010738959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_12
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 513
+        width: 60
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c88f42796cd06841aa1560e2dea290d
+      internalID: 739638179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_13
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 391
+        width: 62
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a3f958436f0d4f4a955dbb4cd323052
+      internalID: -1957359190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_14
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 455
+        width: 55
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 707d2a0f77975e54ea49c033a2909656
+      internalID: -1565283136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_15
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 455
+        width: 52
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5210b7571aab10747abbad80a935dc2f
+      internalID: 1690912289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_16
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 454
+        width: 41
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 599b3b5115e631a43b246e6d347294bd
+      internalID: 1963224212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_17
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 392
+        width: 60
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d12d88519dcbba34197359acdc5e3605
+      internalID: 458914352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_18
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 392
+        width: 59
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be303513018992841bb8f1902d7c7c43
+      internalID: -604923512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_19
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 394
+        width: 58
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae7ab24d69dc83c4ca6ba6fba10de3c3
+      internalID: 2130692274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_20
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 414
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a1a6371cddf2a74cb840776fbfcd199
+      internalID: -1584492927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_21
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 392
+        width: 21
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f83e89579de6f714881b2170b3c2f5e0
+      internalID: -28861143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_22
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 385
+        width: 40
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b97140580ac407488e1ffe0573a202d
+      internalID: 71581389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_23
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 394
+        width: 49
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33e439d696079044ea75fcf2bad6d60d
+      internalID: 448303235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_24
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 384
+        width: 55
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9036eed0abc80f64ab386acc13dc86ae
+      internalID: 1174050900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_25
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 437
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0d5ec88114569d49af161739bdb7e0f
+      internalID: -542360930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_26
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 427
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b41ef3d6fe36c242b385132aa5bbda2
+      internalID: -1755051400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_27
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 313
+        width: 61
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ca387c32b3b56e448b7300d9f49a536
+      internalID: -32316658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_28
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 316
+        width: 58
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 965c046c8f52fc043b4c8d7fba8dea7b
+      internalID: 1268215961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_29
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 318
+        width: 55
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dae5b96cd8b07a40b9cf49d4451e208
+      internalID: 1230779677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_30
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 316
+        width: 57
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac896e356c0a44944a41202d58b75a56
+      internalID: 392858197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_31
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 376
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e93c76c1b376ba4abfa345288e36843
+      internalID: 1734283677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_32
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 318
+        width: 47
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86ebdd47f86d8a9488e20aea78cda61e
+      internalID: 619252976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_33
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 318
+        width: 60
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7839190ebec0ae741811ce34539a9d95
+      internalID: -446371576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_34
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 376
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 377877ff5901ab249b4a5182378e868f
+      internalID: 2105298676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_35
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 383
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 984dc8cea3a09164c9f090fc293d983d
+      internalID: 1349405825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_36
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 318
+        width: 51
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 353fca372f8def940b55fabff7f93a1f
+      internalID: -2139468286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_37
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 318
+        width: 41
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 288216f2de21cf04a8e84821d44ca73b
+      internalID: -610526528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_38
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 306
+        width: 33
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8009da7c023e8134992e2cf72bffb18d
+      internalID: -722570161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_39
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 315
+        width: 58
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92c9fe2c02e41af4980424d078863dba
+      internalID: -1611000993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_40
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 304
+        width: 62
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a54e39a43bfa63f4db1199009bf1b34e
+      internalID: -1716750615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_41
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 316
+        width: 43
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a269d43769c3ff45a51ba0332cde66c
+      internalID: -1225974836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_42
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 317
+        width: 40
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97a3685f9bfd1cd4686e366d786b7290
+      internalID: -1486137499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_43
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 368
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03c3eb5f6bc8fac45913a1c3332c77da
+      internalID: 808588908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_44
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 318
+        width: 34
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1eaa36a0d00fe24b8dfa03ac650f7aa
+      internalID: 455722052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_45
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 318
+        width: 38
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73b0f65ed0c45bf4b9b7afb251e0399b
+      internalID: -33067644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_46
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 318
+        width: 10
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de97856a02b5c2d4babbaa9b6da26a51
+      internalID: 513186416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_47
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 360
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c02a4b8f3e5329c4e89095ea816e4b59
+      internalID: -954906687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_48
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 252
+        width: 39
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7156947a1f6df349b36c9aed1b46bd5
+      internalID: -53345435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_49
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 258
+        width: 62
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af0cef8688f5a6e4787b898f79b1a965
+      internalID: -488545050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_50
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 254
+        width: 32
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ddc06e744050ac48a6162dcfcfae937
+      internalID: -1556153472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_51
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 257
+        width: 43
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73c0c70c8e0cf9b4f8621daaac8d1001
+      internalID: -1862034846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_52
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 258
+        width: 33
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f20cbd354f4ada458af48bec00e2900
+      internalID: -1182646353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_53
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 250
+        width: 56
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3518575483ba0a14aa441c0f5929d4a0
+      internalID: -823724224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_54
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 252
+        width: 43
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3a63849222554b49a838de43198e4d8
+      internalID: -231893683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_55
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 312
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4335e777503164647b5090b9def586f0
+      internalID: -362176577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_56
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 258
+        width: 56
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dc3be3fccad61740a5ad468c33cb37e
+      internalID: 210926125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_57
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 252
+        width: 53
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df375b282eb9c734f81a43178c4b6e35
+      internalID: -284564104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_58
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 258
+        width: 54
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c45aecf58ed2e1941a3c8593d100a24c
+      internalID: -106601508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_59
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 256
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c256170703312b479945c65fe2a5a0f
+      internalID: 1628590009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_60
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 256
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95c8de89ae255b14692b1290be676e2a
+      internalID: -170913574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_61
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 256
+        width: 57
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93ba7694e2587614291ba1270309e368
+      internalID: 181246345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_62
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 236
+        width: 117
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e45396696d456ed41a3f38c6fbbfdce0
+      internalID: -724280014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_63
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 304
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c9da161dcc83fd4cbf66dccd3e6e290
+      internalID: -1542842319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_64
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 292
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5148a86f9eeaade44a87f82a1f97b960
+      internalID: -1236803971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_65
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 185
+        width: 61
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e60df99a3fcebc4aa4ad34ba566df9a
+      internalID: 1559036459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_66
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 190
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 992940b40c80084438d78a3c2a471001
+      internalID: -549737352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_67
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 190
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc7d6c90c0539bd4ea784161c67b9cf3
+      internalID: -2015499303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_68
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 190
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d90460ce729e6b447839031e329a79b3
+      internalID: 1881112046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_69
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 190
+        width: 55
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95b1a5c571148424fb6583baecccaefb
+      internalID: -1871890401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_70
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 187
+        width: 60
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e41eb6f2051b83b4eadbdc19e41841fd
+      internalID: -1945124722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_71
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 190
+        width: 54
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b12c2ceed8af494496ee34edd8839bb
+      internalID: 181222073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_72
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 190
+        width: 51
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbfb3e369732338459f41a774aaebef1
+      internalID: 1259990351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_73
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 130
+        width: 53
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83ca1c9eb793b28459dd36c9c1d362ce
+      internalID: 771375158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_74
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 190
+        width: 43
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 061346b5fddb8b642b938d0c94bec500
+      internalID: 30326468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_75
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 190
+        width: 40
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40bb67a81991c9647a779f8922fc572c
+      internalID: 764221356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_76
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 190
+        width: 34
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55cb632adb13102419dc78f97e18310d
+      internalID: 1920134766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_77
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 190
+        width: 44
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09a045dc8275fcf4281c444c6a58fbc1
+      internalID: -1667934604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_78
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 190
+        width: 44
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00e3ccec03e74a049a10382478d11a05
+      internalID: 1656203778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_79
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 130
+        width: 59
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6179e219e0828934688b92686215ce93
+      internalID: 1576485752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_80
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 190
+        width: 18
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c87ed231ee4c6ed418392b0de7f094dc
+      internalID: -1988120143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_81
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 190
+        width: 14
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c47985f4e7626438969a95755d4400
+      internalID: -1496966432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_82
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 190
+        width: 9
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bf43debf62dd68459256b7554c11ac0
+      internalID: 82185992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_83
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 130
+        width: 14
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dffc9b8a04de86408a9c8e6e3731cd9
+      internalID: -429068726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_84
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 130
+        width: 60
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e780b868878328943b459980586d9f0e
+      internalID: -174990924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_85
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 129
+        width: 39
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2212aaafe449f944e9f64bf2d2f677d7
+      internalID: 752998559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_86
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 130
+        width: 56
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f5ff2be9d20b9c44b5e19e80c79f10a
+      internalID: -1394790944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_87
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 130
+        width: 46
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bea3e540b981fd43b46843a7e944549
+      internalID: -94760511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_88
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 128
+        width: 42
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 454cb200e46697446afb95ebcbb7ad0b
+      internalID: -458068888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_89
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 124
+        width: 54
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6a1d22d9bcb16b40badc39b44d952c4
+      internalID: -805513561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_90
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 124
+        width: 49
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77f5726129a371847a4ed09c85dcd914
+      internalID: -415760478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_91
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 124
+        width: 56
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1db881100736bcf469fb7878f226b370
+      internalID: 1472038588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_92
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 119
+        width: 62
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41cacc4ad935b4a4da84559ef4ae7bc9
+      internalID: 1209928327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_93
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 130
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b63cc1b10702f8b4f87a360e6ca03b94
+      internalID: 1018836650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_94
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 130
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6663e4f471ab9cb47abfb4dea1ab1372
+      internalID: 1326792640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_95
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 58
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 090de1b83f35da94297b819f3ad73419
+      internalID: 1774832498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_96
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 124
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9868ee65d6740048acc7ba594c85527
+      internalID: 1095566554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_97
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 63
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e90604f86175444fb4dd5e8eabf4d4d
+      internalID: 783810632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_98
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 59
+        width: 55
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2616b5ceb7c3214a8927f61b497acbd
+      internalID: 1922900000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_99
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 62
+        width: 33
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5d3bb24c9eb8e3468f6709bb41a7daf
+      internalID: 878023483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_100
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 63
+        width: 37
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e58173220084cc74b97dd34f1223ae81
+      internalID: 1658396720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_101
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 57
+        width: 59
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d8b88b38c66eec4f86c9ae365245ae3
+      internalID: -1087665887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_102
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 63
+        width: 55
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad4985a7a7daf9741912c1b7c7ab0aef
+      internalID: -1097422855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_103
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 100
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f8156966927d2c49ba9f7a4ac4851c1
+      internalID: 1068688375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_104
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 63
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fd670a79d9b59d458a24c27545aee5a
+      internalID: -79671470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_105
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 63
+        width: 51
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbc078b1721b87b4b9560f856c15516e
+      internalID: 2000555329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_106
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 63
+        width: 45
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e54bccaf08434c44b419fcac0951c3e
+      internalID: 1988517321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_107
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 63
+        width: 41
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f51a50c180f77b46b5e02bcaad32452
+      internalID: -281265393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_108
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 63
+        width: 51
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5577cf10626935447898274c8ba82fb8
+      internalID: 1409217956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_109
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 63
+        width: 45
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57355206fb9616a4b8c030770a42840a
+      internalID: -530382599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_110
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 61
+        width: 44
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b59262e83021dc4b866bea46752874e
+      internalID: 1860006477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_111
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 63
+        width: 13
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 204168a451f24234e9586a44176e5cd1
+      internalID: 2013581000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_112
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 63
+        width: 13
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9202ed505f80b2d4ab4c20fb98c462fe
+      internalID: -289585637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_113
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 72
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e892ebb79ac17254fbd89fa2cad77b20
+      internalID: -2042399856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_114
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 3
+        width: 37
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2928cf0534d25b2489d18382981a3f95
+      internalID: -1291534176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_115
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 60
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b552ae1c214a4fb46a08674bdca2f09a
+      internalID: 688001294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_116
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 3
+        width: 52
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec6c2a7fb69260b4eb0de1263b4c8a84
+      internalID: -728728920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_117
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 3
+        width: 51
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7da67916ae04c1d47a39dfcac10e319c
+      internalID: 1595441086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_118
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 3
+        width: 53
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bf8aa17c23b8654592da6aaa8cff045
+      internalID: -1411532935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_119
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 3
+        width: 64
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8da15767fcaab54c8683c064beb09ac
+      internalID: -1353823440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_120
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 1
+        width: 86
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c3c5f0414b6131468f1bcc634b5683e
+      internalID: 1270114548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_121
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 3
+        width: 12
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86b49566020a0be43b0f681a92171f65
+      internalID: -1849679082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_122
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 3
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72837e022ea65f941829046648d90e03
+      internalID: 1396695408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_123
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 3
+        width: 28
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1702865bd61fd8c458fa944340f016b0
+      internalID: 1123786517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_124
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 40
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac56c02579afef249b945af09ae07756
+      internalID: -818864031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_125
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 1
+        width: 60
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e8e8ebb20b066f40b1301e8141ee7ce
+      internalID: -1136857143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_126
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 3
+        width: 41
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b80a90112bba568498c65f75ee90d1ec
+      internalID: -47886530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_127
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 3
+        width: 50
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af5cab11b24509c4f849c2158d0ea7bd
+      internalID: -1429475686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_128
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 3
+        width: 53
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9b5d8fb82c097441a5899e00e70cef9
+      internalID: 1638014758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Collectibles_129
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 3
+        width: 55
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a02021eb5484cbb4eb4c6b15ef0a7802
+      internalID: -944670049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: dfbd815b1ff3724488f494a666c3857b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Xbox 360 - Sonic Unleashed - Collectibles_0: -1339041125
+      Xbox 360 - Sonic Unleashed - Collectibles_1: 1780022160
+      Xbox 360 - Sonic Unleashed - Collectibles_10: 884913149
+      Xbox 360 - Sonic Unleashed - Collectibles_100: 1658396720
+      Xbox 360 - Sonic Unleashed - Collectibles_101: -1087665887
+      Xbox 360 - Sonic Unleashed - Collectibles_102: -1097422855
+      Xbox 360 - Sonic Unleashed - Collectibles_103: 1068688375
+      Xbox 360 - Sonic Unleashed - Collectibles_104: -79671470
+      Xbox 360 - Sonic Unleashed - Collectibles_105: 2000555329
+      Xbox 360 - Sonic Unleashed - Collectibles_106: 1988517321
+      Xbox 360 - Sonic Unleashed - Collectibles_107: -281265393
+      Xbox 360 - Sonic Unleashed - Collectibles_108: 1409217956
+      Xbox 360 - Sonic Unleashed - Collectibles_109: -530382599
+      Xbox 360 - Sonic Unleashed - Collectibles_11: 2010738959
+      Xbox 360 - Sonic Unleashed - Collectibles_110: 1860006477
+      Xbox 360 - Sonic Unleashed - Collectibles_111: 2013581000
+      Xbox 360 - Sonic Unleashed - Collectibles_112: -289585637
+      Xbox 360 - Sonic Unleashed - Collectibles_113: -2042399856
+      Xbox 360 - Sonic Unleashed - Collectibles_114: -1291534176
+      Xbox 360 - Sonic Unleashed - Collectibles_115: 688001294
+      Xbox 360 - Sonic Unleashed - Collectibles_116: -728728920
+      Xbox 360 - Sonic Unleashed - Collectibles_117: 1595441086
+      Xbox 360 - Sonic Unleashed - Collectibles_118: -1411532935
+      Xbox 360 - Sonic Unleashed - Collectibles_119: -1353823440
+      Xbox 360 - Sonic Unleashed - Collectibles_12: 739638179
+      Xbox 360 - Sonic Unleashed - Collectibles_120: 1270114548
+      Xbox 360 - Sonic Unleashed - Collectibles_121: -1849679082
+      Xbox 360 - Sonic Unleashed - Collectibles_122: 1396695408
+      Xbox 360 - Sonic Unleashed - Collectibles_123: 1123786517
+      Xbox 360 - Sonic Unleashed - Collectibles_124: -818864031
+      Xbox 360 - Sonic Unleashed - Collectibles_125: -1136857143
+      Xbox 360 - Sonic Unleashed - Collectibles_126: -47886530
+      Xbox 360 - Sonic Unleashed - Collectibles_127: -1429475686
+      Xbox 360 - Sonic Unleashed - Collectibles_128: 1638014758
+      Xbox 360 - Sonic Unleashed - Collectibles_129: -944670049
+      Xbox 360 - Sonic Unleashed - Collectibles_13: -1957359190
+      Xbox 360 - Sonic Unleashed - Collectibles_14: -1565283136
+      Xbox 360 - Sonic Unleashed - Collectibles_15: 1690912289
+      Xbox 360 - Sonic Unleashed - Collectibles_16: 1963224212
+      Xbox 360 - Sonic Unleashed - Collectibles_17: 458914352
+      Xbox 360 - Sonic Unleashed - Collectibles_18: -604923512
+      Xbox 360 - Sonic Unleashed - Collectibles_19: 2130692274
+      Xbox 360 - Sonic Unleashed - Collectibles_2: -734777774
+      Xbox 360 - Sonic Unleashed - Collectibles_20: -1584492927
+      Xbox 360 - Sonic Unleashed - Collectibles_21: -28861143
+      Xbox 360 - Sonic Unleashed - Collectibles_22: 71581389
+      Xbox 360 - Sonic Unleashed - Collectibles_23: 448303235
+      Xbox 360 - Sonic Unleashed - Collectibles_24: 1174050900
+      Xbox 360 - Sonic Unleashed - Collectibles_25: -542360930
+      Xbox 360 - Sonic Unleashed - Collectibles_26: -1755051400
+      Xbox 360 - Sonic Unleashed - Collectibles_27: -32316658
+      Xbox 360 - Sonic Unleashed - Collectibles_28: 1268215961
+      Xbox 360 - Sonic Unleashed - Collectibles_29: 1230779677
+      Xbox 360 - Sonic Unleashed - Collectibles_3: 1816888917
+      Xbox 360 - Sonic Unleashed - Collectibles_30: 392858197
+      Xbox 360 - Sonic Unleashed - Collectibles_31: 1734283677
+      Xbox 360 - Sonic Unleashed - Collectibles_32: 619252976
+      Xbox 360 - Sonic Unleashed - Collectibles_33: -446371576
+      Xbox 360 - Sonic Unleashed - Collectibles_34: 2105298676
+      Xbox 360 - Sonic Unleashed - Collectibles_35: 1349405825
+      Xbox 360 - Sonic Unleashed - Collectibles_36: -2139468286
+      Xbox 360 - Sonic Unleashed - Collectibles_37: -610526528
+      Xbox 360 - Sonic Unleashed - Collectibles_38: -722570161
+      Xbox 360 - Sonic Unleashed - Collectibles_39: -1611000993
+      Xbox 360 - Sonic Unleashed - Collectibles_4: -198396853
+      Xbox 360 - Sonic Unleashed - Collectibles_40: -1716750615
+      Xbox 360 - Sonic Unleashed - Collectibles_41: -1225974836
+      Xbox 360 - Sonic Unleashed - Collectibles_42: -1486137499
+      Xbox 360 - Sonic Unleashed - Collectibles_43: 808588908
+      Xbox 360 - Sonic Unleashed - Collectibles_44: 455722052
+      Xbox 360 - Sonic Unleashed - Collectibles_45: -33067644
+      Xbox 360 - Sonic Unleashed - Collectibles_46: 513186416
+      Xbox 360 - Sonic Unleashed - Collectibles_47: -954906687
+      Xbox 360 - Sonic Unleashed - Collectibles_48: -53345435
+      Xbox 360 - Sonic Unleashed - Collectibles_49: -488545050
+      Xbox 360 - Sonic Unleashed - Collectibles_5: -171042751
+      Xbox 360 - Sonic Unleashed - Collectibles_50: -1556153472
+      Xbox 360 - Sonic Unleashed - Collectibles_51: -1862034846
+      Xbox 360 - Sonic Unleashed - Collectibles_52: -1182646353
+      Xbox 360 - Sonic Unleashed - Collectibles_53: -823724224
+      Xbox 360 - Sonic Unleashed - Collectibles_54: -231893683
+      Xbox 360 - Sonic Unleashed - Collectibles_55: -362176577
+      Xbox 360 - Sonic Unleashed - Collectibles_56: 210926125
+      Xbox 360 - Sonic Unleashed - Collectibles_57: -284564104
+      Xbox 360 - Sonic Unleashed - Collectibles_58: -106601508
+      Xbox 360 - Sonic Unleashed - Collectibles_59: 1628590009
+      Xbox 360 - Sonic Unleashed - Collectibles_6: 1705822351
+      Xbox 360 - Sonic Unleashed - Collectibles_60: -170913574
+      Xbox 360 - Sonic Unleashed - Collectibles_61: 181246345
+      Xbox 360 - Sonic Unleashed - Collectibles_62: -724280014
+      Xbox 360 - Sonic Unleashed - Collectibles_63: -1542842319
+      Xbox 360 - Sonic Unleashed - Collectibles_64: -1236803971
+      Xbox 360 - Sonic Unleashed - Collectibles_65: 1559036459
+      Xbox 360 - Sonic Unleashed - Collectibles_66: -549737352
+      Xbox 360 - Sonic Unleashed - Collectibles_67: -2015499303
+      Xbox 360 - Sonic Unleashed - Collectibles_68: 1881112046
+      Xbox 360 - Sonic Unleashed - Collectibles_69: -1871890401
+      Xbox 360 - Sonic Unleashed - Collectibles_7: 472113513
+      Xbox 360 - Sonic Unleashed - Collectibles_70: -1945124722
+      Xbox 360 - Sonic Unleashed - Collectibles_71: 181222073
+      Xbox 360 - Sonic Unleashed - Collectibles_72: 1259990351
+      Xbox 360 - Sonic Unleashed - Collectibles_73: 771375158
+      Xbox 360 - Sonic Unleashed - Collectibles_74: 30326468
+      Xbox 360 - Sonic Unleashed - Collectibles_75: 764221356
+      Xbox 360 - Sonic Unleashed - Collectibles_76: 1920134766
+      Xbox 360 - Sonic Unleashed - Collectibles_77: -1667934604
+      Xbox 360 - Sonic Unleashed - Collectibles_78: 1656203778
+      Xbox 360 - Sonic Unleashed - Collectibles_79: 1576485752
+      Xbox 360 - Sonic Unleashed - Collectibles_8: 21877611
+      Xbox 360 - Sonic Unleashed - Collectibles_80: -1988120143
+      Xbox 360 - Sonic Unleashed - Collectibles_81: -1496966432
+      Xbox 360 - Sonic Unleashed - Collectibles_82: 82185992
+      Xbox 360 - Sonic Unleashed - Collectibles_83: -429068726
+      Xbox 360 - Sonic Unleashed - Collectibles_84: -174990924
+      Xbox 360 - Sonic Unleashed - Collectibles_85: 752998559
+      Xbox 360 - Sonic Unleashed - Collectibles_86: -1394790944
+      Xbox 360 - Sonic Unleashed - Collectibles_87: -94760511
+      Xbox 360 - Sonic Unleashed - Collectibles_88: -458068888
+      Xbox 360 - Sonic Unleashed - Collectibles_89: -805513561
+      Xbox 360 - Sonic Unleashed - Collectibles_9: 899342569
+      Xbox 360 - Sonic Unleashed - Collectibles_90: -415760478
+      Xbox 360 - Sonic Unleashed - Collectibles_91: 1472038588
+      Xbox 360 - Sonic Unleashed - Collectibles_92: 1209928327
+      Xbox 360 - Sonic Unleashed - Collectibles_93: 1018836650
+      Xbox 360 - Sonic Unleashed - Collectibles_94: 1326792640
+      Xbox 360 - Sonic Unleashed - Collectibles_95: 1774832498
+      Xbox 360 - Sonic Unleashed - Collectibles_96: 1095566554
+      Xbox 360 - Sonic Unleashed - Collectibles_97: 783810632
+      Xbox 360 - Sonic Unleashed - Collectibles_98: 1922900000
+      Xbox 360 - Sonic Unleashed - Collectibles_99: 878023483
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

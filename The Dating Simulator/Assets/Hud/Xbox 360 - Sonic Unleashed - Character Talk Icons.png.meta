@@ -1,0 +1,648 @@
+fileFormatVersion: 2
+guid: dedbb6c35aad0c94bbe71d2d31c403a8
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Character Talk Icons_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 425
+        width: 100
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a60256f16ee2a04faf75aec86e9b71a
+      internalID: 1396092593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Character Talk Icons_1
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 425
+        width: 100
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d322fe1b35919a844a0607a3b1cfd205
+      internalID: -1683476811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Character Talk Icons_2
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 425
+        width: 100
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cade2ac85d867d46a1f2f7de812e12d
+      internalID: 2138756240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Character Talk Icons_3
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 425
+        width: 100
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 520287ffc48102d419a722e3bab15dd5
+      internalID: -168342573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Character Talk Icons_4
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 425
+        width: 100
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43e178eae34eb6c408a4ddd3ee9a011b
+      internalID: -506486588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Character Talk Icons_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 324
+        width: 100
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1905c7bf045401748b5528d23fddde3e
+      internalID: -981453378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Character Talk Icons_6
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 324
+        width: 100
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13aaeff614e9517408b21c3e7fdf08a8
+      internalID: -587246997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Character Talk Icons_7
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 324
+        width: 100
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 876f483b91bb3ab41b008895e81b01a7
+      internalID: -1110518654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Character Talk Icons_8
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 324
+        width: 100
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b62bc936c0fcf954288a7ff0ee367779
+      internalID: -1378224721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Character Talk Icons_9
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 324
+        width: 100
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31c4a34c324cf704aae4f8a5ebab4c0d
+      internalID: -495322968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Character Talk Icons_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 223
+        width: 100
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8291bf5834116c4ba767252bd279966
+      internalID: -2029039301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Character Talk Icons_11
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 223
+        width: 100
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8dc4daa25e14464fb348c22b17ec169
+      internalID: -1158048136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Character Talk Icons_12
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 223
+        width: 100
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03f1d471bbc262b40b9365df629af637
+      internalID: 1782911957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Character Talk Icons_13
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 223
+        width: 100
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35288358bffe46743addb0bdc242924c
+      internalID: 822536159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Character Talk Icons_14
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 223
+        width: 100
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3508595d90c0754289660848ec17c9b
+      internalID: -1762063685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Character Talk Icons_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 122
+        width: 100
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff8ca01b49e14184884dd50224c3bce3
+      internalID: -653924139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Character Talk Icons_16
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 122
+        width: 100
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 362bd0d04f556d041a61f074c7da3b03
+      internalID: -771373566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Character Talk Icons_17
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 122
+        width: 100
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c2ab10ef8ceb3e4bb89972cab0016f3
+      internalID: -607019560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Character Talk Icons_18
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 122
+        width: 100
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9dbda89966397d48bae342df4bac72a
+      internalID: -1778484908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Character Talk Icons_19
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 82
+        width: 94
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cd22781b7ab1664aa9701fd74877445
+      internalID: 1533873046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Character Talk Icons_20
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 50
+        width: 80
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1887ae6f670e6e745a7b201804946e6e
+      internalID: 63939986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Character Talk Icons_21
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 18
+        width: 68
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3843f06c70cfc2a40876b15ccf08b443
+      internalID: 372678556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Xbox 360 - Sonic Unleashed - Character Talk Icons_22
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 54
+        width: 97
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03f79a8e97670a741aa4f3b44af150ef
+      internalID: -1298409174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Xbox 360 - Sonic Unleashed - Character Talk Icons_0: 1396092593
+      Xbox 360 - Sonic Unleashed - Character Talk Icons_1: -1683476811
+      Xbox 360 - Sonic Unleashed - Character Talk Icons_10: -2029039301
+      Xbox 360 - Sonic Unleashed - Character Talk Icons_11: -1158048136
+      Xbox 360 - Sonic Unleashed - Character Talk Icons_12: 1782911957
+      Xbox 360 - Sonic Unleashed - Character Talk Icons_13: 822536159
+      Xbox 360 - Sonic Unleashed - Character Talk Icons_14: -1762063685
+      Xbox 360 - Sonic Unleashed - Character Talk Icons_15: -653924139
+      Xbox 360 - Sonic Unleashed - Character Talk Icons_16: -771373566
+      Xbox 360 - Sonic Unleashed - Character Talk Icons_17: -607019560
+      Xbox 360 - Sonic Unleashed - Character Talk Icons_18: -1778484908
+      Xbox 360 - Sonic Unleashed - Character Talk Icons_19: 1533873046
+      Xbox 360 - Sonic Unleashed - Character Talk Icons_2: 2138756240
+      Xbox 360 - Sonic Unleashed - Character Talk Icons_20: 63939986
+      Xbox 360 - Sonic Unleashed - Character Talk Icons_21: 372678556
+      Xbox 360 - Sonic Unleashed - Character Talk Icons_22: -1298409174
+      Xbox 360 - Sonic Unleashed - Character Talk Icons_23: 456755084
+      Xbox 360 - Sonic Unleashed - Character Talk Icons_24: 252290060
+      Xbox 360 - Sonic Unleashed - Character Talk Icons_3: -168342573
+      Xbox 360 - Sonic Unleashed - Character Talk Icons_4: -506486588
+      Xbox 360 - Sonic Unleashed - Character Talk Icons_5: -981453378
+      Xbox 360 - Sonic Unleashed - Character Talk Icons_6: -587246997
+      Xbox 360 - Sonic Unleashed - Character Talk Icons_7: -1110518654
+      Xbox 360 - Sonic Unleashed - Character Talk Icons_8: -1378224721
+      Xbox 360 - Sonic Unleashed - Character Talk Icons_9: -495322968
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
