@@ -52,7 +52,7 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Roll",
+                    "name": "Slide",
                     "type": "Button",
                     "id": "f3051d27-22f2-4322-8249-8b98ffc0f968",
                     "expectedControlType": "",
@@ -185,18 +185,18 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard & Mouse",
-                    "action": "Roll",
+                    "action": "Slide",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "",
                     "id": "fe10c5e7-ef1c-4f39-8ed8-06a422e9abca",
-                    "path": "<Gamepad>/leftTrigger",
+                    "path": "<Gamepad>/buttonEast",
                     "interactions": "",
                     "processors": "",
                     "groups": "Gamepad",
-                    "action": "Roll",
+                    "action": "Slide",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },

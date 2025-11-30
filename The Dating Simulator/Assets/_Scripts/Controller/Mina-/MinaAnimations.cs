@@ -24,7 +24,7 @@ public class MinaAnimations : MonoBehaviour
 
         // Set movement parameters
         animator.SetFloat("Speed", speed);
-        animator.SetFloat("Speed Percent", speed / move.maxSpeed);
+        animator.SetFloat("Speed Percent", speed / move.jetSpeed);
 
         float leftRightInput = move.moveInput.x;
         
@@ -39,7 +39,7 @@ public class MinaAnimations : MonoBehaviour
         animator.SetFloat("RB Vertical Velocity", rbVerticalSpeed);
 
         // Also based on MovePosition movement velocity
-        Vector3 moveHorizontal = Vector3.ProjectOnPlane(move.velocity, gravity.SurfaceNormal);
+        Vector3 moveHorizontal = Vector3.ProjectOnPlane(move.projVelocity, gravity.SurfaceNormal);
         float moveHorizontalSpeed = moveHorizontal.magnitude;
         animator.SetFloat("Move Horizontal Velocity", moveHorizontalSpeed);
 
@@ -47,7 +47,7 @@ public class MinaAnimations : MonoBehaviour
 
         // New movement checks
         bool rbMoving = rb.linearVelocity.sqrMagnitude > 0.01f;
-        bool moveMoving = move.velocity.sqrMagnitude > 0.01f;
+        bool moveMoving = move.projVelocity.sqrMagnitude > 0.01f;
         bool theoMoving = move.moveInput.sqrMagnitude > 0.01f;
         bool anyMoving = rbMoving || moveMoving;
 

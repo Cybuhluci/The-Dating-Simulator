@@ -12,7 +12,7 @@ namespace Luci
             if (other.CompareTag("Player") || other.gameObject.layer == playerlayer)
             {
                 // Assuming you have a central manager or player script that handles lives
-                //SonicLifeSystem.Instance.PlayerDied();
+                MinaLifeSystem.Instance.PlayerDied();
             }
         }
     }

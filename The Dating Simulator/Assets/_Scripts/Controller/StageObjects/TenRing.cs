@@ -1,12 +1,12 @@
-using Luci;
 using UnityEngine;
+using Luci;
 
-public class Ring : Entity
+public class TenRing : Entity
 {
     protected override void OnCollect(GameObject collector)
     {
         base.OnCollect(collector);
 
-        //MinaRingSystem.Instance.AddRing(1);
+        //MinaRingSystem.Instance.AddRing(10);
     }
 }

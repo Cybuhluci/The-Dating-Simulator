@@ -83,9 +83,9 @@ public class mainmenu : MonoBehaviour
         stageScreens[currentStageIndex].SetActive(true);
     }
 
-    public void playgame()
+    public void playgame(string SceneName)
     {
-        LoadStage("SampleScene");
+        LoadStage(SceneName);
     }
 
     public void LoadStage(string stageName)
@@ -152,6 +152,8 @@ public class mainmenu : MonoBehaviour
     public void quittodesktop()
     {
         Application.Quit();
+#if unityeditor
         EditorApplication.isPlaying = false; // Only works in editor
+#endif
     }
 }

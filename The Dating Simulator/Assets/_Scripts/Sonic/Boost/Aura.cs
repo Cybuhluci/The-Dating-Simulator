@@ -9,6 +9,11 @@ public class Aura : MonoBehaviour
         DistortionEnd();
     }
 
+    void OnEnable()
+    {
+        DistortionStart();
+    }
+
     public void DistortionStart()
     {
         if (!distortionCamera) return;

@@ -1,4 +1,5 @@
 {
+    "version": 1,
     "name": "LuciSonicMove",
     "maps": [
         {
@@ -69,7 +70,7 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Roll",
+                    "name": "Slide",
                     "type": "Button",
                     "id": "ce890203-7861-4930-86eb-661936d24da0",
                     "expectedControlType": "",
@@ -99,7 +100,7 @@
                     "name": "Boost",
                     "type": "Button",
                     "id": "d03d15ca-e85a-4cdd-83d9-75bb65adb867",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -237,7 +238,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard & Mouse",
-                    "action": "Roll",
+                    "action": "Slide",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -248,7 +249,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Gamepad",
-                    "action": "Roll",
+                    "action": "Slide",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },

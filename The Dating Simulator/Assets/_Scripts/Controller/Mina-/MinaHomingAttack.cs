@@ -1,4 +1,5 @@
 using Luci;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -10,11 +11,13 @@ public class MinaHomingAttack : MonoBehaviour
     [SerializeField] Rigidbody rb;
     [SerializeField] PlayerInput playerInput;
     [SerializeField] MinaGravity gravity;
+    [SerializeField] MinaGroundMove move;
     [SerializeField] MinaJump jump;
     [SerializeField] GameObject homingReticle;
     [SerializeField] Animator animator;
     [SerializeField] TrailRenderer trailRenderer;
     [SerializeField] AudioSource HomingSource;
+    [SerializeField] private HomingTarget homingTarget;
 
     [Header("Homing Settings")]
     [SerializeField] float homingRadius = 10f;
@@ -23,10 +26,10 @@ public class MinaHomingAttack : MonoBehaviour
     [SerializeField] float hitProximity = 1.2f;
 
     [SerializeField] float airDashForce = 20f;
+    [SerializeField] float airDashUpForce = 8f; // added upward arc strength
     [SerializeField] float airdashLength = 1.0f;
     [SerializeField] private bool hasAirDashed = false;
 
-    [SerializeField] private HomingTarget homingTarget;
     [SerializeField] private Vector3 targetPosition;
     [SerializeField] private float attackTimer;
     [SerializeField] private bool isHoming;
@@ -167,8 +170,16 @@ public class MinaHomingAttack : MonoBehaviour
         hasAirDashed = true;
         gravity.gravityEnabled = false;
 
-        rb.linearVelocity = Vector3.zero;
-        rb.AddForce(transform.forward * airDashForce, ForceMode.VelocityChange);
+        // Use playerModel.forward so dash follows the model facing, not Rigidbody rotation
+        Vector3 modelForward = move != null ? move.playerModel.forward : transform.forward;
+        // Project forward onto plane orthogonal to surface normal so dash follows surface orientation
+        Vector3 forwardAlongSurface = Vector3.ProjectOnPlane(modelForward, gravity.SurfaceNormal).normalized;
+
+        // Compose dash velocity: forward plus a bit of upward along surface normal for an arc
+        Vector3 dashVelocity = forwardAlongSurface * airDashForce + gravity.SurfaceNormal * airDashUpForce;
+
+        // Set velocity directly for deterministic dash behavior
+        rb.linearVelocity = dashVelocity;
 
         Invoke(nameof(RestoreGravity), airdashLength);
     }
@@ -176,11 +187,6 @@ public class MinaHomingAttack : MonoBehaviour
     void RestoreGravity()
     {
         gravity.gravityEnabled = true;
-        Invoke(nameof(StopEmittion), 1f);
     }
 
-    void StopEmittion()
-    {
-        trailRenderer.emitting = false;
-    }
 }

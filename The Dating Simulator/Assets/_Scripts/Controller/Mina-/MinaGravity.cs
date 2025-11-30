@@ -65,6 +65,22 @@ public class MinaGravity : MonoBehaviour
             animator.SetBool("SmallJump", false);
             animator.SetBool("Airboost", false);
             jump.InBigJump = false;
+
+            // Stick-to-ground correction:
+            // If the player's current velocity has a component away from the surface (positive along the normal),
+            // remove that upward component and add a small downward bias so the player remains in contact with the surface
+            if (rb != null)
+            {
+                float velAlongNormal = Vector3.Dot(rb.linearVelocity, hit.normal);
+                if (velAlongNormal > 0f)
+                {
+                    // Remove upward component
+                    Vector3 horizontal = Vector3.ProjectOnPlane(rb.linearVelocity, hit.normal);
+                    // Apply a small downward bias to ensure contact (tweak bias as needed)
+                    float downwardBias = Mathf.Max(0.5f, velAlongNormal * 0.5f);
+                    rb.linearVelocity = horizontal + (-hit.normal * downwardBias);
+                }
+            }
         }
         else
         {
@@ -93,5 +109,4 @@ public class MinaGravity : MonoBehaviour
         Gizmos.DrawWireSphere(origin + direction * groundRayLength, groundRayRadius);
         Gizmos.DrawLine(origin, origin + direction * groundRayLength);
     }
-
 }

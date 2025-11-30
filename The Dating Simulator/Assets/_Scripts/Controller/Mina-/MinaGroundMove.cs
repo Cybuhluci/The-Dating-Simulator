@@ -5,7 +5,6 @@ using UnityEngine.InputSystem;
 [RequireComponent(typeof(Rigidbody))]
 public class MinaGroundMove : MonoBehaviour
 {
-    // Fixed references to MinaAttributes
     MinaAttributes attributes = MinaAttributes.Instance;
 
     [Header("References")]
@@ -18,20 +17,27 @@ public class MinaGroundMove : MonoBehaviour
     [SerializeField] MinaPlayerCamera playerCamera;
 
     [Header("Movement Settings")]
-    [SerializeField] float baseSpeed = 30f; 
-    public float maxSpeed = 60f; 
-    [SerializeField] float acceleration = 90f; 
-    [SerializeField] float deceleration = 45f;
+    [SerializeField] float baseSpeed = 30f; // target run speed when holding input on flat ground
+    [SerializeField] float acceleration = 90f; // how fast we accelerate up to baseSpeed
+    [SerializeField] float deceleration = 45f; // how fast we slow when no input
     [SerializeField] float airControl = 20f;
-    [SerializeField] float turnSpeed = 15f; 
+    [SerializeField] float steerSpeed = 8f;   // how quickly direction steers toward input at high speed
+    [SerializeField] float turnSpeed = 15f;
     [SerializeField] float sideInfluence = 0.4f;
+    [SerializeField] public float jetSpeed = 100f; // For animation only
 
-    public Vector3 velocity;
+    [Header("Slope Settings")]
+    [SerializeField] float slopeAccelMultiplier = 50f; // extra speed gain when going downhill (units/sec^2)
+    [SerializeField] float slopeDecelMultiplier = 60f; // extra speed loss when going uphill (units/sec^2)
+
+    // readouts
+    public float velocity;
+    public Vector3 projVelocity;
     public Vector2 moveInput;
-
     private Vector3 lastPosition;
     public float currentSpeed;
 
+    // runtime
     private bool wasGroundedLastFrame;
     public float BoostMult;
 
@@ -40,7 +46,7 @@ public class MinaGroundMove : MonoBehaviour
         attributes = MinaAttributes.Instance;
         if (playerCamera == null)
         {
-            Debug.LogError("PlayerCamera reference is not set in SonicGroundMove!", this);
+            Debug.LogError("PlayerCamera reference is not set in MinaGroundMove!", this);
         }
     }
 
@@ -51,128 +57,154 @@ public class MinaGroundMove : MonoBehaviour
 
     void FixedUpdate()
     {
+        if (attributes.PlayerDisabled) return;
+
         Vector3 normal = gravity.SurfaceNormal;
-        Vector3 processedInputDir;
 
-        // --- Determine Actual Speed/Control Values based on Mode ---
-        float currentBaseSpeed = baseSpeed;
-        float currentMaxSpeed = maxSpeed;
-        float currentAcceleration = acceleration;
-        float currentDeceleration = deceleration;
-        float currentAirControl = airControl;
-
+        // camera-relative input, projected to ground later when used
         Vector3 camForward = Vector3.ProjectOnPlane(cameraTransform.forward, normal).normalized;
         Vector3 camRight = Vector3.ProjectOnPlane(cameraTransform.right, normal).normalized;
-        processedInputDir = (camForward * moveInput.y + camRight * moveInput.x).normalized;
+        Vector3 inputDir = (camForward * moveInput.y + camRight * moveInput.x);
+        if (inputDir.sqrMagnitude > 1f) inputDir.Normalize();
 
         if (attributes.IsGrounded)
-        {
-            if (!wasGroundedLastFrame)
-            {
-                Vector3 landingVelocity = Vector3.ProjectOnPlane(rb.linearVelocity, normal);
-                rb.linearVelocity = Vector3.Lerp(rb.linearVelocity, landingVelocity, 0.5f);
-                velocity = landingVelocity;
-            }
-
-            if (!jump.hasJumped)
-            {
-                GroundMovement(processedInputDir, normal, currentBaseSpeed, currentMaxSpeed, currentAcceleration, currentDeceleration);
-            }
-        }
+            GroundMovement(inputDir, normal);
         else
-        {
-            AirMovement(processedInputDir, normal, currentBaseSpeed, currentAirControl);
-        }
+            AirMovement(inputDir, normal);
 
         RotateModel(normal);
 
         currentSpeed = ((transform.position - lastPosition) / Time.fixedDeltaTime).magnitude;
         lastPosition = transform.position;
-
         wasGroundedLastFrame = attributes.IsGrounded;
-        jump.hasJumped = false;
         gravity.ManualUpdate();
+
+        velocity = rb.linearVelocity.magnitude;
     }
 
-    // Modified GroundMovement to accept current speed/accel values
-    void GroundMovement(Vector3 inputDir, Vector3 groundNormal, float currentBaseSpeed, float currentMaxSpeed, float currentAcceleration, float currentDeceleration)
+    // Hybrid velocity-preserving controller using rb.linearVelocity:
+    // - preserves existing speed when steering at high speed (so boosts/air-dashes stick)
+    // - accelerates up to baseSpeed when input held and current speed is lower
+    // - steers direction smoothly when above baseSpeed using steerSpeed
+    void GroundMovement(Vector3 inputDir, Vector3 groundNormal)
     {
-        if (attributes.PlayerDisabled) return;
-
+        // Split current velocity
+        Vector3 verticalVel = Vector3.Project(rb.linearVelocity, groundNormal);
         Vector3 horizontalVel = Vector3.ProjectOnPlane(rb.linearVelocity, groundNormal);
+        float speedOnPlane = horizontalVel.magnitude;
 
-        if (BoostMult > 1f)
+        // downhill direction (points along surface toward world-down)
+        Vector3 downhillDir = Vector3.ProjectOnPlane(Vector3.down, groundNormal).normalized;
+
+        // Desired behavior when player gives input
+        if (inputDir.magnitude > 0.1f)
         {
-            Vector3 forward = Vector3.ProjectOnPlane(playerModel.forward, groundNormal).normalized;
-            Vector3 right = Vector3.Cross(groundNormal, forward).normalized;
+            // compute camera-relative, ground-projected desired direction
+            Vector3 desiredDir = Vector3.ProjectOnPlane(inputDir, groundNormal).normalized;
 
-            float forwardSpeed = currentBaseSpeed * BoostMult;
-
-            float driftAmount = Vector3.Dot(inputDir, right);
-            Vector3 sideDrift = right * driftAmount * sideInfluence * forwardSpeed;
-
-            Vector3 forwardTarget = forward * forwardSpeed;
-            Vector3 targetVelocity = forwardTarget + sideDrift;
-
-            horizontalVel = Vector3.MoveTowards(horizontalVel, targetVelocity, currentAcceleration * Time.fixedDeltaTime);
-        }
-        else
-        {
-            if (inputDir.magnitude > 0.1f)
+            // If we are effectively stopped, accelerate up toward baseSpeed
+            if (speedOnPlane < 0.1f)
             {
-                float targetSpeed = currentBaseSpeed;
-                Vector3 targetVelocity = inputDir * targetSpeed;
-                horizontalVel = Vector3.MoveTowards(horizontalVel, targetVelocity, currentAcceleration * Time.fixedDeltaTime);
+                Vector3 targetVel = desiredDir * baseSpeed;
+                Vector3 newHoriz = Vector3.MoveTowards(horizontalVel, targetVel, acceleration * Time.fixedDeltaTime);
+
+                // slope effect: if moving downhill, gain speed; if uphill, lose speed
+                float slopeDot = Vector3.Dot(desiredDir, downhillDir);
+                if (slopeDot > 0f)
+                    newHoriz = newHoriz.normalized * (newHoriz.magnitude + slopeDot * slopeAccelMultiplier * Time.fixedDeltaTime);
+                else
+                    newHoriz = newHoriz.normalized * Mathf.Max(0f, newHoriz.magnitude + slopeDot * slopeDecelMultiplier * Time.fixedDeltaTime);
+
+                rb.linearVelocity = newHoriz + verticalVel;
             }
             else
             {
-                horizontalVel = Vector3.MoveTowards(horizontalVel, Vector3.zero, currentDeceleration * Time.fixedDeltaTime);
+                // If below baseSpeed, accelerate towards baseSpeed in input direction
+                if (speedOnPlane < baseSpeed * (BoostMult > 1f ? BoostMult : 1f))
+                {
+                    Vector3 targetVel = desiredDir * baseSpeed * (BoostMult > 1f ? BoostMult : 1f);
+                    Vector3 newHoriz = Vector3.MoveTowards(horizontalVel, targetVel, acceleration * Time.fixedDeltaTime);
+
+                    float slopeDot = Vector3.Dot(desiredDir, downhillDir);
+                    if (slopeDot > 0f)
+                        newHoriz = newHoriz.normalized * (newHoriz.magnitude + slopeDot * slopeAccelMultiplier * Time.fixedDeltaTime);
+                    else
+                        newHoriz = newHoriz.normalized * Mathf.Max(0f, newHoriz.magnitude + slopeDot * slopeDecelMultiplier * Time.fixedDeltaTime);
+
+                    rb.linearVelocity = newHoriz + verticalVel;
+                }
+                else
+                {
+                    // Above baseSpeed: preserve magnitude, steer direction toward desiredDir
+                    float preservedSpeed = speedOnPlane;
+                    // avoid NaN
+                    if (horizontalVel.sqrMagnitude < 0.0001f)
+                    {
+                        horizontalVel = desiredDir * preservedSpeed;
+                    }
+
+                    Vector3 currentDir = horizontalVel.normalized;
+                    // slerp-like steering of direction (using Slerp for better angular feel)
+                    Vector3 steeredDir = Vector3.Slerp(currentDir, desiredDir, Mathf.Clamp01(steerSpeed * Time.fixedDeltaTime));
+                    Vector3 newHoriz = steeredDir.normalized * preservedSpeed;
+
+                    // apply slope influence on preserved speed (only if moving along downhill/uphill)
+                    float slopeDot = Vector3.Dot(steeredDir, downhillDir);
+                    if (slopeDot > 0f)
+                        newHoriz = newHoriz.normalized * (newHoriz.magnitude + slopeDot * slopeAccelMultiplier * Time.fixedDeltaTime);
+                    else
+                        newHoriz = newHoriz.normalized * Mathf.Max(0f, newHoriz.magnitude + slopeDot * slopeDecelMultiplier * Time.fixedDeltaTime);
+
+                    rb.linearVelocity = newHoriz + verticalVel;
+                }
             }
         }
-
-        Vector3 newVelocity = Vector3.ProjectOnPlane(horizontalVel, groundNormal);
-        Vector3 downwardForce = -groundNormal * 2f; // Ensure consistent grounded gravity pull
-
-        rb.linearVelocity = newVelocity + downwardForce;
-        velocity = newVelocity;
-    }
-
-    // Modified AirMovement to accept current speed/control values
-    void AirMovement(Vector3 inputDir, Vector3 normal, float currentBaseSpeed, float currentAirControl)
-    {
-        if (attributes.PlayerDisabled) return;
-
-        gravity.ApplyGravity(); // Main gravity applied here
-
-        Vector3 horizontalVelocity = Vector3.ProjectOnPlane(rb.linearVelocity, normal);
-        Vector3 verticalVelocity = Vector3.Project(rb.linearVelocity, normal);
-
-        if (inputDir.magnitude > 0.1f)
+        else
         {
-            Vector3 targetVelocity = inputDir * currentBaseSpeed;
-            horizontalVelocity = Vector3.MoveTowards(horizontalVelocity, targetVelocity, currentAirControl * Time.fixedDeltaTime);
+            // No input: gently decelerate horizontal velocity, preserve vertical
+            Vector3 newHoriz = Vector3.MoveTowards(horizontalVel, Vector3.zero, deceleration * Time.fixedDeltaTime);
+            rb.linearVelocity = newHoriz + verticalVel;
         }
 
-        rb.linearVelocity = horizontalVelocity + verticalVelocity;
+        // update projection for animations/logic
+        projVelocity = Vector3.ProjectOnPlane(rb.linearVelocity, groundNormal);
+    }
+
+    void AirMovement(Vector3 inputDir, Vector3 normal)
+    {
+        // Let gravity system handle vertical acceleration
+        gravity.ApplyGravity();
+
+        // Air control: small steering force to influence direction while preserving speed
+        Vector3 horizontalVel = Vector3.ProjectOnPlane(rb.linearVelocity, normal);
+        float speedOnPlane = horizontalVel.magnitude;
+
+        if (inputDir.magnitude > 0.1f && speedOnPlane > 0.01f)
+        {
+            Vector3 desiredDir = Vector3.ProjectOnPlane(inputDir, normal).normalized;
+            Vector3 currentDir = horizontalVel.normalized;
+            Vector3 steeredDir = Vector3.Slerp(currentDir, desiredDir, Mathf.Clamp01((airControl * 0.1f) * Time.fixedDeltaTime));
+            Vector3 newHoriz = steeredDir * speedOnPlane;
+            Vector3 verticalVel = Vector3.Project(rb.linearVelocity, normal);
+            rb.linearVelocity = newHoriz + verticalVel;
+        }
+        // if near zero horizontal speed, small impulse to start movement in air if input given
+        else if (inputDir.magnitude > 0.1f && speedOnPlane <= 0.01f)
+        {
+            Vector3 desiredDir = Vector3.ProjectOnPlane(inputDir, normal).normalized;
+            Vector3 verticalVel = Vector3.Project(rb.linearVelocity, normal);
+            rb.linearVelocity = desiredDir * (baseSpeed * 0.2f) + verticalVel;
+        }
     }
 
     void RotateModel(Vector3 normal)
     {
-        Vector3 movementDirection;
-
-        if (attributes.IsGrounded)
-        {
-            movementDirection = Vector3.ProjectOnPlane(rb.linearVelocity, normal);
-        }
-        else
-        {
-            movementDirection = Vector3.ProjectOnPlane(rb.linearVelocity, normal);
-        }
-
+        Vector3 movementDirection = Vector3.ProjectOnPlane(rb.linearVelocity, normal);
         if (movementDirection.sqrMagnitude > 0.01f)
         {
             Quaternion targetRot = Quaternion.LookRotation(movementDirection, normal);
-            rb.MoveRotation(Quaternion.Slerp(rb.rotation, targetRot, Time.fixedDeltaTime * turnSpeed));
+            // rotate playerModel to face movement (keeps Rigidbody free for collisions)
+            playerModel.rotation = Quaternion.Slerp(playerModel.rotation, targetRot, Time.fixedDeltaTime * turnSpeed);
         }
     }
 }

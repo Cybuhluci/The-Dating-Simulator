@@ -1,12 +1,13 @@
 using System.Collections;
+using System.Text.RegularExpressions;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class LoadingScreen : MonoBehaviour
+public class LoadingScreen : MonoBehaviour // THIS SCRIPT MIGHT BE REMOVED IN FUTURE, STAGES ARE NOT PART OF THE GAME ANYMORE
 { 
-    public string StageName1;
-    public string StageName2;
+    public string StageName1 = "Placeholder";
+    public string StageName2 = "Placeholder";
     public TMP_Text StageName1txt;
     public TMP_Text StageName2txt;
 
@@ -30,11 +31,26 @@ public class LoadingScreen : MonoBehaviour
             Anim.SetBool("loaded", false);
         }
 
-        StageName1txt.text = StageName1;
-        StageName2txt.text = StageName2;
+        string nextScene = PlayerPrefs.GetString("NextScene");
 
         levelToLoad = PlayerPrefs.GetString("NextScene", "DefaultScene");
         previousScene = PlayerPrefs.GetString("PreviousScene", "DefaultScene");
+
+        // Split the scene name into two display strings and assign to the UI texts
+        if (!string.IsNullOrEmpty(levelToLoad))
+        {
+            var names = SplitSceneName(levelToLoad);
+            StageName1 = names.Item1;
+            StageName2 = names.Item2;
+
+            if (StageName1txt != null) StageName1txt.text = StageName1;
+            if (StageName2txt != null) StageName2txt.text = StageName2;
+        }
+        else
+        {
+            if (StageName1txt != null) StageName1txt.text = StageName1;
+            if (StageName2txt != null) StageName2txt.text = StageName2;
+        }
 
         if (levelToLoad == "DefaultScene")
         {
@@ -101,5 +117,34 @@ public class LoadingScreen : MonoBehaviour
                 SceneManager.UnloadSceneAsync("loadingScene");
             }
         }
+    }
+
+    private (string, string) SplitSceneName(string sceneName)
+    {
+        if (string.IsNullOrEmpty(sceneName)) return ("", "");
+
+        var name = sceneName;
+
+        var camelMatch = Regex.Match(name.Substring(1), "[A-Z]");
+        if (camelMatch.Success)
+        {
+            int pos = camelMatch.Index + 1;
+            var a = name.Substring(0, pos);
+            var b = name.Substring(pos);
+            return (ToDisplay(a), ToDisplay(b));
+        }
+
+        int mid = Mathf.Clamp(name.Length / 2, 1, name.Length - 1);
+        var left = name.Substring(0, mid);
+        var right = name.Substring(mid);
+        return (ToDisplay(left), ToDisplay(right));
+    }
+
+    private string ToDisplay(string input)
+    {
+        if (string.IsNullOrEmpty(input)) return "";
+        var s = Regex.Replace(input, @"[_\-.]+", " ");
+        s = Regex.Replace(s, "(?<=[a-z0-9])(?=[A-Z])", " ");
+        return s.Trim();
     }
 }
