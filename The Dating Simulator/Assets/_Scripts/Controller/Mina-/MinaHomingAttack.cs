@@ -34,6 +34,8 @@ public class MinaHomingAttack : MonoBehaviour
     [SerializeField] private float attackTimer;
     [SerializeField] private bool isHoming;
 
+    public bool inAirBoost;
+
     void Start()
     {
         attributes = MinaAttributes.Instance;
@@ -42,6 +44,11 @@ public class MinaHomingAttack : MonoBehaviour
     void Update()
     {
         if (attributes.PlayerDisabled) return;
+
+        if (inAirBoost)
+        {
+            trailRenderer.emitting = false;
+        }
 
         TryFindTarget();
         TryUpdateReticle();

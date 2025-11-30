@@ -16,7 +16,7 @@ public class MinaJump : MonoBehaviour
     [SerializeField] AudioSource SourceSpin;
     [SerializeField] AudioClip Jump;
     [SerializeField] AudioClip Spin;
-    [SerializeField] GameObject Spinball;
+    public GameObject Spinball;
 
     [Header("Jump Settings")]
     [SerializeField] float jumpHeight = 12f;
@@ -44,6 +44,7 @@ public class MinaJump : MonoBehaviour
 
     public bool hasJumped;
     public bool InBigJump;
+    public bool inAirBoost;
 
     public bool IsInJumpLockout => lockoutTimer > 0f;
 
@@ -60,7 +61,14 @@ public class MinaJump : MonoBehaviour
     {
         if (attributes.PlayerDisabled) return;
 
-        Spinball.SetActive(InBigJump);
+        if (!inAirBoost)
+        {
+            Spinball.SetActive(InBigJump);
+        }
+        else 
+        {             
+            Spinball.SetActive(false);
+        }
 
         if (attributes.IsGrounded)
         {

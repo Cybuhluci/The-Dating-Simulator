@@ -5,11 +5,15 @@ public class Entity : StageObject
 {
     [SerializeField] public AudioClip collectSound;
     [SerializeField] private GameObject collectEffect;
+    [SerializeField] private AudioSource source;
 
     protected virtual void OnCollect(GameObject collector)
     {
         if (collectSound)
-            AudioSource.PlayClipAtPoint(collectSound, transform.position);
+        {
+            source.clip = collectSound;
+            source.Play();
+        }
 
         if (collectEffect)
             Instantiate(collectEffect, transform.position, Quaternion.identity);
