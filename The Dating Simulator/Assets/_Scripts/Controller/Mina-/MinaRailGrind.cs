@@ -26,11 +26,23 @@ public class MinaRailGrind : MonoBehaviour
     float totalLength;
     float traveled;
 
+    // parametric position along spline (0..1)
+    float tParam;
+    int tDirection = 1; //1 = forward, -1 = backward along spline
+
     [Tooltip("multiply player's horizontal velocity to determine initial grind speed (1 = preserve)")]
     public float preserveSpeedMultiplier = 1f;
 
     [Tooltip("Allow player to jump off the rail")]
     public bool allowJumpOff = true;
+
+    // store previous rigidbody settings to restore
+    CollisionDetectionMode previousCollisionMode = CollisionDetectionMode.Discrete;
+    RigidbodyInterpolation previousInterpolation = RigidbodyInterpolation.None;
+
+    // grind runtime
+    float currentGrindSpeed = 0f;
+    Vector3 lastPos;
 
     void Reset()
     {
@@ -44,37 +56,66 @@ public class MinaRailGrind : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (!onRail || activeRail == null || samples.Count < 2) return;
+        if (!onRail || activeRail == null) return;
 
-        // Determine current grind speed: preserve current horizontal speed but clamp to rail max
-        Vector3 horizVel = Vector3.ProjectOnPlane(rb.linearVelocity, gravity != null ? gravity.SurfaceNormal : Vector3.up);
-        float speed = horizVel.magnitude * preserveSpeedMultiplier;
+        var container = activeRail.spline;
+        if (container == null) return;
+
+        Vector3 up = gravity != null ? gravity.SurfaceNormal : Vector3.up;
+
+        // Use the maintained currentGrindSpeed for movement (don't read rb.velocity here)
         float railMax = activeRail.maxSpeed > 0f ? activeRail.maxSpeed : float.MaxValue;
-        speed = Mathf.Clamp(speed, 0.1f, railMax);
+        float speed = Mathf.Clamp(currentGrindSpeed, 0.01f, railMax);
 
-        // Advance traveled by speed * dt, clamped to total length
-        float delta = speed * Time.fixedDeltaTime;
-        traveled = Mathf.Min(traveled + delta, totalLength);
+        // Convert linear speed (units/sec) into deltaT using spline length
+        float railLength = container.CalculateLength();
+        if (railLength <= 0f) railLength = 1f;
+        float deltaT = (speed * Time.fixedDeltaTime) / railLength * tDirection;
 
-        // Sample position via arc-length table
-        Vector3 pos = SamplePositionAtDistance(traveled);
+        tParam += deltaT;
 
-        // Move player along rail deterministically (preserve collisions)
+        // handle open/closed spline wrap/clamp
+        bool closed = container.Spline.Closed;
+        if (closed)
+        {
+            tParam = Mathf.Repeat(tParam, 1f);
+        }
+        else
+        {
+            if (tParam >= 1f)
+            {
+                tParam = 1f;
+                ExitRail();
+                return;
+            }
+            else if (tParam <= 0f)
+            {
+                tParam = 0f;
+                ExitRail();
+                return;
+            }
+        }
+
+        // Sample precise world position and move
+        Vector3 pos = (Vector3)container.EvaluatePosition(tParam);
+
+        // compute displacement-based velocity to keep physics coherent
+        Vector3 displacement = pos - lastPos;
+        Vector3 newVel = displacement / Mathf.Max(Time.fixedDeltaTime, 1e-6f);
+
         rb.MovePosition(pos);
+        rb.linearVelocity = newVel;
 
         // Orient model to tangent
-        Vector3 tangent = SampleTangentAtDistance(traveled);
-        if (move != null && move.playerModel != null && tangent.sqrMagnitude > 0f)
+        Vector3 newTangent = (Vector3)container.EvaluateTangent(tParam);
+        if (newTangent.sqrMagnitude > 1e-6f) newTangent.Normalize();
+        if (move != null && move.playerModel != null && newTangent.sqrMagnitude > 0f)
         {
-            Quaternion targetRot = Quaternion.LookRotation(tangent.normalized, gravity != null ? gravity.SurfaceNormal : Vector3.up);
+            Quaternion targetRot = Quaternion.LookRotation(newTangent, up);
             move.playerModel.rotation = Quaternion.Slerp(move.playerModel.rotation, targetRot, Time.fixedDeltaTime * modelOrientSpeed);
         }
 
-        // If we reached the end of the rail, exit
-        if (Mathf.Approximately(traveled, totalLength))
-        {
-            ExitRail();
-        }
+        lastPos = pos;
     }
 
     // Called by Rail trigger when player enters the rail trigger
@@ -84,23 +125,77 @@ public class MinaRailGrind : MonoBehaviour
         if (onRail) return; // already on a rail
 
         activeRail = rail;
-        BuildSamplesFromSpline(rail.spline);
-        if (samples.Count < 2) return;
+        var container = activeRail.spline;
+        if (container == null) return;
 
-        // choose starting traveled distance as closest point to player
-        traveled = FindClosestDistanceOnSamples(transform.position);
+        // find nearest t on spline by sampling fallback
+        tParam = FindNearestTBySampling(container);
+
+        Vector3 up = gravity != null ? gravity.SurfaceNormal : Vector3.up;
+
+        // Determine direction sign from current velocity
+        Vector3 tang = (Vector3)container.EvaluateTangent(tParam);
+        if (tang.sqrMagnitude > 1e-6f) tang.Normalize();
+        float forwardDot = Vector3.Dot(rb.linearVelocity, tang);
+        tDirection = forwardDot >= 0f ? 1 : -1;
+
+        // capture incoming horizontal speed BEFORE we modify rb
+        float incomingSpeed = Vector3.ProjectOnPlane(rb.linearVelocity, up).magnitude;
+
+        // Teleport to evaluated position to avoid large MovePosition deltas and jitter
+        Vector3 startPos = (Vector3)container.EvaluatePosition(tParam);
+        rb.position = startPos;
+        rb.rotation = Quaternion.identity; // keep Rigidbody rotation neutral
+
+        // initialize grind speed from incoming momentum and multiplier
+        float railMax = activeRail.maxSpeed > 0f ? activeRail.maxSpeed : float.MaxValue;
+        currentGrindSpeed = Mathf.Clamp(incomingSpeed * preserveSpeedMultiplier, 0.01f, railMax);
+
+        // set initial velocity along tangent so physics queries are coherent
+        rb.linearVelocity = (tang.sqrMagnitude > 1e-6f ? tang.normalized : transform.forward) * currentGrindSpeed + Vector3.Project(rb.linearVelocity, up);
+        rb.angularVelocity = Vector3.zero;
+
+        // set lastPos for displacement calc
+        lastPos = startPos;
+
+        // choose starting traveled distance as closest point to player (kept for potential exit logic)
+        float railLength = container.CalculateLength();
+        traveled = Mathf.Clamp01(tParam) * railLength;
 
         // disable normal control and gravity
-        //MinaAttributes.Instance.PlayerDisabled = true;
+        MinaAttributes.Instance.PlayerDisabled = true;
         if (gravity != null) gravity.gravityEnabled = false;
 
         // animator
         if (animator != null) animator.SetBool("IsGrinding", true);
 
-        // setup collisions for high speed
+        // store and set collision & interpolation for smoother movement
+        previousCollisionMode = rb.collisionDetectionMode;
+        previousInterpolation = rb.interpolation;
         rb.collisionDetectionMode = CollisionDetectionMode.ContinuousDynamic;
+        rb.interpolation = RigidbodyInterpolation.Interpolate;
 
         onRail = true;
+    }
+
+    float FindNearestTBySampling(SplineContainer container)
+    {
+        int segmentCount = Mathf.Max(1, container.Spline.Count - 1);
+        int totalSamples = segmentCount * samplesPerSegment;
+        float bestT = 0f;
+        float bestDist = float.MaxValue;
+        for (int i = 0; i <= totalSamples; i++)
+        {
+            float t = (float)i / totalSamples;
+            Vector3 p = (Vector3)container.EvaluatePosition(t);
+            float d = Vector3.Distance(transform.position, p);
+            if (d < bestDist)
+            {
+                bestDist = d;
+                bestT = t;
+            }
+        }
+        return bestT;
     }
 
     public void ExitRail(bool keepVelocity = true)
@@ -111,106 +206,51 @@ public class MinaRailGrind : MonoBehaviour
 
         // restore gravity and player control
         if (gravity != null) gravity.gravityEnabled = true;
-        //MinaAttributes.Instance.PlayerDisabled = false;
+        MinaAttributes.Instance.PlayerDisabled = false;
 
         // animator
         if (animator != null) animator.SetBool("IsGrinding", false);
 
         // smooth exit: optionally keep velocity along tangent at exit
-        Vector3 tangent = SampleTangentAtDistance(traveled);
-        if (keepVelocity && tangent.sqrMagnitude > 0f)
+        if (activeRail != null)
         {
-            float exitSpeed = Mathf.Clamp(Vector3.ProjectOnPlane(rb.linearVelocity, gravity != null ? gravity.SurfaceNormal : Vector3.up).magnitude, 0f, activeRail != null ? activeRail.maxSpeed : float.MaxValue);
-            Vector3 newVel = tangent.normalized * exitSpeed + Vector3.Project(rb.linearVelocity, gravity != null ? gravity.SurfaceNormal : Vector3.up);
-            rb.linearVelocity = Vector3.Lerp(rb.linearVelocity, newVel, Time.fixedDeltaTime * exitBlend);
-        }
-
-        // reset collision mode if needed
-        rb.collisionDetectionMode = CollisionDetectionMode.Discrete;
-
-        activeRail = null;
-        samples.Clear();
-        cumulative.Clear();
-        totalLength = 0f;
-        traveled = 0f;
-    }
-
-    void BuildSamplesFromSpline(SplineContainer container)
-    {
-        samples.Clear();
-        cumulative.Clear();
-        totalLength = 0f;
-
-        if (container == null) return;
-
-        Spline spline = container.Spline;
-        if (spline.Count == 0) return;
-
-        int segmentCount = Mathf.Max(1, spline.Count - 1);
-        int totalSamples = segmentCount * samplesPerSegment;
-        Vector3 prev = container.EvaluatePosition(0f);
-        samples.Add(prev);
-        cumulative.Add(0f);
-
-        for (int i = 1; i <= totalSamples; i++)
-        {
-            float t = (float)i / totalSamples;
-            Vector3 p = container.EvaluatePosition(t);
-            totalLength += Vector3.Distance(prev, p);
-            samples.Add(p);
-            cumulative.Add(totalLength);
-            prev = p;
-        }
-    }
-
-    float FindClosestDistanceOnSamples(Vector3 worldPos)
-    {
-        float best = 0f;
-        float bestDist = float.MaxValue;
-        for (int i = 0; i < samples.Count; i++)
-        {
-            float d = Vector3.Distance(worldPos, samples[i]);
-            if (d < bestDist)
+            var container = activeRail.spline;
+            if (container != null)
             {
-                bestDist = d;
-                best = cumulative[i];
+                Vector3 tangent = (Vector3)container.EvaluateTangent(tParam);
+                if (tangent.sqrMagnitude > 1e-6f) tangent.Normalize();
+                if (keepVelocity && tangent.sqrMagnitude > 0f)
+                {
+                    float exitSpeed = Mathf.Clamp(Vector3.ProjectOnPlane(rb.linearVelocity, gravity != null ? gravity.SurfaceNormal : Vector3.up).magnitude, 0f, activeRail != null ? activeRail.maxSpeed : float.MaxValue);
+                    Vector3 newVel = tangent.normalized * exitSpeed + Vector3.Project(rb.linearVelocity, gravity != null ? gravity.SurfaceNormal : Vector3.up);
+                    rb.linearVelocity = Vector3.Lerp(rb.linearVelocity, newVel, Time.fixedDeltaTime * exitBlend);
+                }
             }
         }
-        return best;
+
+        // restore previous collision and interpolation
+        rb.collisionDetectionMode = previousCollisionMode;
+        rb.interpolation = previousInterpolation;
+
+        activeRail = null;
+        // reset any internal sampling state (none maintained now)
     }
 
-    Vector3 SamplePositionAtDistance(float distance)
+    // optional helper for debugging
+    void OnDrawGizmosSelected()
     {
-        if (samples.Count == 0) return transform.position;
-        distance = Mathf.Clamp(distance, 0f, totalLength);
-
-        int idx = cumulative.BinarySearch(distance);
-        if (idx < 0) idx = ~idx;
-        idx = Mathf.Clamp(idx, 1, samples.Count - 1);
-
-        float prev = cumulative[idx - 1];
-        float next = cumulative[idx];
-        float seg = next - prev;
-        float t = seg > 0f ? (distance - prev) / seg : 0f;
-        return Vector3.Lerp(samples[idx - 1], samples[idx], t);
-    }
-
-    Vector3 SampleTangentAtDistance(float distance)
-    {
-        if (samples.Count < 2) return transform.forward;
-        distance = Mathf.Clamp(distance, 0f, totalLength);
-        int idx = cumulative.BinarySearch(distance);
-        if (idx < 0) idx = ~idx;
-        idx = Mathf.Clamp(idx, 1, samples.Count - 1);
-
-        int i0 = Mathf.Max(0, idx - 2);
-        int i1 = Mathf.Max(0, idx - 1);
-        int i2 = Mathf.Min(samples.Count - 1, idx);
-        int i3 = Mathf.Min(samples.Count - 1, idx + 1);
-
-        Vector3 tangent = (samples[i2] - samples[i1]).normalized;
-        if (tangent.sqrMagnitude < 1e-6f)
-            tangent = (samples[i3] - samples[i0]).normalized;
-        return tangent;
+        if (activeRail != null && activeRail.spline != null)
+        {
+            Gizmos.color = Color.yellow;
+            int steps = 32;
+            for (int i = 0; i < steps; i++)
+            {
+                float a = (float)i / steps;
+                float b = (float)(i + 1) / steps;
+                Vector3 pa = (Vector3)activeRail.spline.EvaluatePosition(a);
+                Vector3 pb = (Vector3)activeRail.spline.EvaluatePosition(b);
+                Gizmos.DrawLine(pa, pb);
+            }
+        }
     }
 }

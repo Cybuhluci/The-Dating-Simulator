@@ -1,5 +1,6 @@
 using Luci;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 
 public class MinaAnimations : MonoBehaviour
@@ -10,24 +11,43 @@ public class MinaAnimations : MonoBehaviour
     [SerializeField] Rigidbody rb;
     public Animator animator;
     [SerializeField] MinaGravity gravity;
+    [SerializeField] PlayerInput input;
+    private float leftRightInput;
+    private InputAction Swtich;
+    private float GrindSwich = 0;
 
     void Start()
     {
         attributes = MinaAttributes.Instance;
+
+        Swtich = input.actions["Slide"];
     }
 
     void Update()
     {
+        leftRightInput = input.actions["Move"].ReadValue<Vector2>().x;
+
+        if (Swtich.triggered)
+        {
+            if (GrindSwich == 1)
+                GrindSwich = 0;
+            else
+                GrindSwich = 1;
+            animator.SetFloat("GrindSide", GrindSwich);
+        }
+
+        animator.SetFloat("Grindleftright", leftRightInput);
+
         if (attributes.PlayerDisabled) return;
 
         float speed = move.currentSpeed;
+
+        animator.SetFloat("leftrightmovement", move.moveInput.x);
 
         // Set movement parameters
         animator.SetFloat("Speed", speed);
         animator.SetFloat("Speed Percent", speed / move.jetSpeed);
 
-        float leftRightInput = move.moveInput.x;
-        
         // Correct horizontal velocity calculations
         Vector3 rbHorizontal = Vector3.ProjectOnPlane(rb.linearVelocity, gravity.SurfaceNormal);
         float rbHorizontalSpeed = rbHorizontal.magnitude;

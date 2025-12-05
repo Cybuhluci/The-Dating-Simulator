@@ -1130,418 +1130,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e5acdb9b2d14ad547add18243a312f97, type: 3}
---- !u!1 &548020658
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 548020660}
-  - component: {fileID: 548020659}
-  m_Layer: 0
-  m_Name: Spline
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &548020659
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 548020658}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dab5c7d4c32e743048dfca98e2d5914f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.Splines::UnityEngine.Splines.SplineContainer
-  m_Spline:
-    m_EditModeType: 1
-    m_Knots: []
-    m_MetaData: []
-    m_Closed: 0
-    m_IntData:
-      m_Data: []
-    m_FloatData:
-      m_Data: []
-    m_Float4Data:
-      m_Data: []
-    m_ObjectData:
-      m_Data: []
-  m_Splines:
-  - m_EditModeType: 1
-    m_Knots:
-    - Position:
-        x: 0
-        y: 0
-        z: 0
-      TangentIn:
-        x: -0
-        y: -0
-        z: -1.3635982
-      TangentOut:
-        x: 0
-        y: 0
-        z: 1.3635982
-      Rotation:
-        value:
-          x: 0.024089258
-          y: 0.8196084
-          z: 0.012346307
-          w: 0.5722844
-    - Position:
-        x: 12.8
-        y: -0.1
-        z: -4.7
-      TangentIn:
-        x: -0
-        y: -0
-        z: -4.819398
-      TangentOut:
-        x: 0
-        y: 0
-        z: 5.448139
-      Rotation:
-        value:
-          x: 0.025170576
-          y: 0.83135504
-          z: 0.015458515
-          w: 0.55495614
-    - Position:
-        x: 28.599998
-        y: -0.05
-        z: -12.05
-      TangentIn:
-        x: 0
-        y: 0
-        z: -2.828036
-      TangentOut:
-        x: 0
-        y: 0
-        z: 2.828036
-      Rotation:
-        value:
-          x: 0.022334853
-          y: 0.8609733
-          z: 0.019438537
-          w: 0.50778764
-    - Position:
-        x: 57.45
-        y: 0.65
-        z: -29.1
-      TangentIn:
-        x: 0
-        y: 0
-        z: -10.145527
-      TangentOut:
-        x: 0
-        y: 0
-        z: 10.145527
-      Rotation:
-        value:
-          x: 0.023848878
-          y: 0.84651756
-          z: 0.02921534
-          w: 0.53102326
-    - Position:
-        x: 120.55
-        y: 7.1
-        z: -61.2
-      TangentIn:
-        x: 0
-        y: 0
-        z: -19.477173
-      TangentOut:
-        x: 0
-        y: 0
-        z: 19.477173
-      Rotation:
-        value:
-          x: -0.010224087
-          y: 0.84411716
-          z: 0.08838722
-          w: 0.5287243
-    - Position:
-        x: 179.40001
-        y: 22.800001
-        z: -87.1
-      TangentIn:
-        x: -0
-        y: -0
-        z: -18.48744
-      TangentOut:
-        x: 0
-        y: 0
-        z: 13.414164
-      Rotation:
-        value:
-          x: -0.05435124
-          y: 0.84585494
-          z: 0.14221382
-          w: 0.5112247
-    - Position:
-        x: 207.40001
-        y: 35.100002
-        z: -103.799995
-      TangentIn:
-        x: -0
-        y: -0
-        z: -9.330783
-      TangentOut:
-        x: 0
-        y: 0
-        z: 7.1054697
-      Rotation:
-        value:
-          x: -0.120076336
-          y: 0.9292708
-          z: 0.15182933
-          w: 0.31461948
-    - Position:
-        x: 211.75
-        y: 41.4
-        z: -122.5
-      TangentIn:
-        x: -0
-        y: -0
-        z: -7.093325
-      TangentOut:
-        x: 0
-        y: 0
-        z: 8.156755
-      Rotation:
-        value:
-          x: -0.16924421
-          y: 0.97645867
-          z: 0.12484674
-          w: 0.047938928
-    - Position:
-        x: 208.70001
-        y: 46.75
-        z: -148.5
-      TangentIn:
-        x: -0
-        y: -0
-        z: -5.798571
-      TangentOut:
-        x: 0
-        y: 0
-        z: 6.5757747
-      Rotation:
-        value:
-          x: -0.17868434
-          y: 0.8653338
-          z: 0.018796531
-          w: -0.46788466
-    - Position:
-        x: 178.25
-        y: 34.2
-        z: -138.7
-      TangentIn:
-        x: -0
-        y: -0
-        z: -12.493701
-      TangentOut:
-        x: 0
-        y: 0
-        z: 15.20896
-      Rotation:
-        value:
-          x: 0.1670769
-          y: -0.52513736
-          z: 0.05841657
-          w: 0.83240837
-    - Position:
-        x: 136.90001
-        y: 18.45
-        z: -113.5
-      TangentIn:
-        x: -0
-        y: -0
-        z: -16.029327
-      TangentOut:
-        x: 0
-        y: 0
-        z: 14.38548
-      Rotation:
-        value:
-          x: 0.13039525
-          y: -0.46627188
-          z: 0.03953249
-          w: 0.87408507
-    - Position:
-        x: 104.3
-        y: 9.45
-        z: -90.299995
-      TangentIn:
-        x: -0
-        y: -0
-        z: -13.642982
-      TangentOut:
-        x: 0
-        y: 0
-        z: 13.615792
-      Rotation:
-        value:
-          x: 0.09127737
-          y: -0.44960764
-          z: 0.015366543
-          w: 0.88841724
-    - Position:
-        x: 71.8
-        y: 4.0499997
-        z: -66.15
-      TangentIn:
-        x: -0
-        y: -0
-        z: -13.577344
-      TangentOut:
-        x: 0
-        y: 0
-        z: 13.517408
-      Rotation:
-        value:
-          x: 0.055130836
-          y: -0.44427562
-          z: -0.0017579572
-          w: 0.8941905
-    - Position:
-        x: 39.7
-        y: 1.5500001
-        z: -41.600002
-      TangentIn:
-        x: -0
-        y: -0
-        z: -12.177395
-      TangentOut:
-        x: 0
-        y: 0
-        z: 10.012103
-      Rotation:
-        value:
-          x: 0.029539179
-          y: -0.44463167
-          z: -0.009339107
-          w: 0.89517754
-    - Position:
-        x: 17.8
-        y: 0.8
-        z: -25.2
-      TangentIn:
-        x: -0
-        y: -0
-        z: -8.655703
-      TangentOut:
-        x: 0
-        y: 0
-        z: 7.8153753
-      Rotation:
-        value:
-          x: 0.018663576
-          y: -0.43730956
-          z: -0.0137297325
-          w: 0.8990125
-    - Position:
-        x: 0.5500002
-        y: 0.45
-        z: -11.05
-      TangentIn:
-        x: -0
-        y: -0
-        z: -5.556853
-      TangentOut:
-        x: 0
-        y: 0
-        z: 3.3269997
-      Rotation:
-        value:
-          x: 0.013158002
-          y: -0.39498737
-          z: -0.012711538
-          w: 0.9185044
-    - Position:
-        x: -4.8499994
-        y: 0.35
-        z: -5.1500006
-      TangentIn:
-        x: -0
-        y: -0
-        z: -0.79987496
-      TangentOut:
-        x: 0
-        y: 0
-        z: 0.79987496
-      Rotation:
-        value:
-          x: 0.011659888
-          y: -0.36201712
-          z: -0.012751246
-          w: 0.9320113
-    m_MetaData:
-    - Mode: 0
-      Tension: 0.5
-    - Mode: 0
-      Tension: 0.5
-    - Mode: 2
-      Tension: 0.5
-    - Mode: 2
-      Tension: 0.5
-    - Mode: 2
-      Tension: 0.5
-    - Mode: 0
-      Tension: 0.5
-    - Mode: 0
-      Tension: 0.5
-    - Mode: 0
-      Tension: 0.5
-    - Mode: 0
-      Tension: 0.5
-    - Mode: 0
-      Tension: 0.5
-    - Mode: 0
-      Tension: 0.5
-    - Mode: 0
-      Tension: 0.5
-    - Mode: 0
-      Tension: 0.5
-    - Mode: 0
-      Tension: 0.5
-    - Mode: 0
-      Tension: 0.5
-    - Mode: 0
-      Tension: 0.5
-    - Mode: 0
-      Tension: 0.5
-    m_Closed: 0
-    m_IntData:
-      m_Data: []
-    m_FloatData:
-      m_Data: []
-    m_Float4Data:
-      m_Data: []
-    m_ObjectData:
-      m_Data: []
-  m_Knots:
-    m_KnotsLink: []
---- !u!4 &548020660
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 548020658}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1700689575}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &550600589 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 1033884348058809516, guid: 22546394b3efb6c46a7d5f77231a821a, type: 3}
@@ -1892,6 +1480,542 @@ Light:
   m_LightUnit: 1
   m_LuxAtDistance: 1
   m_EnableSpotReflector: 1
+--- !u!1 &929236994
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 929237001}
+  - component: {fileID: 929237000}
+  - component: {fileID: 929236999}
+  - component: {fileID: 929236998}
+  - component: {fileID: 929236997}
+  - component: {fileID: 929236996}
+  - component: {fileID: 929236995}
+  - component: {fileID: 929237002}
+  m_Layer: 0
+  m_Name: Spline
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &929236995
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 929236994}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2, y: 2, z: 2}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &929236996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 929236994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5355e99533a75bb499fe5018a3b4143e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Luci.HomingTarget
+  reticlePosition: {fileID: 929237001}
+--- !u!114 &929236997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 929236994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 222dc08d484f16869bdd89edd9d368fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Splines::UnityEngine.Splines.SplineExtrude
+  m_Container: {fileID: 929237000}
+  m_TargetMesh: {fileID: 0}
+  m_RebuildOnSplineChange: 1
+  m_RebuildFrequency: 30
+  m_UpdateColliders: 0
+  m_Sides: 8
+  m_SegmentsPerUnit: 4
+  m_Capped: 1
+  m_Radius: 0.2
+  m_Range: {x: 0, y: 1}
+  m_FlipNormals: 0
+  m_Shape:
+    rid: 2377470821954748489
+  references:
+    version: 2
+    RefIds:
+    - rid: 2377470821954748489
+      type: {class: Circle, ns: UnityEngine.Splines.ExtrusionShapes, asm: Unity.Splines}
+      data:
+        m_Sides: 8
+--- !u!23 &929236998
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 929236994}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &929236999
+MeshFilter:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 929236994}
+  m_Mesh: {fileID: 0}
+--- !u!114 &929237000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 929236994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dab5c7d4c32e743048dfca98e2d5914f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Splines::UnityEngine.Splines.SplineContainer
+  m_Spline:
+    m_EditModeType: 1
+    m_Knots: []
+    m_MetaData: []
+    m_Closed: 0
+    m_IntData:
+      m_Data: []
+    m_FloatData:
+      m_Data: []
+    m_Float4Data:
+      m_Data: []
+    m_ObjectData:
+      m_Data: []
+  m_Splines:
+  - m_EditModeType: 1
+    m_Knots:
+    - Position:
+        x: 0
+        y: 0
+        z: 0
+      TangentIn:
+        x: -0
+        y: -0
+        z: -3.4442127
+      TangentOut:
+        x: 0
+        y: 0
+        z: 3.4442127
+      Rotation:
+        value:
+          x: -0.055331085
+          y: 0.9915955
+          z: -0.005055614
+          w: 0.1168391
+    - Position:
+        x: 8
+        y: 0.099999964
+        z: -33.5
+      TangentIn:
+        x: -0
+        y: -0
+        z: -10.514538
+      TangentOut:
+        x: 0
+        y: 0
+        z: 8.889901
+      Rotation:
+        value:
+          x: -0.06476594
+          y: 0.992689
+          z: -0.0033516374
+          w: 0.10179768
+    - Position:
+        x: 12.25
+        y: 0.34999996
+        z: -57.75
+      TangentIn:
+        x: -0
+        y: -0
+        z: -8.28866
+      TangentOut:
+        x: 0
+        y: 0
+        z: 8.544001
+      Rotation:
+        value:
+          x: -0.078742735
+          y: 0.996237
+          z: -0.001744057
+          w: 0.036171895
+    - Position:
+        x: 11.5
+        y: 0.19999999
+        z: -83.899994
+      TangentIn:
+        x: -0
+        y: -0
+        z: -8.675963
+      TangentOut:
+        x: 0
+        y: 0
+        z: 8.692336
+      Rotation:
+        value:
+          x: -0.0827877
+          y: 0.99414015
+          z: -0.0077412534
+          w: -0.06907626
+    - Position:
+        x: 5.1499977
+        y: -1.05
+        z: -109.350006
+      TangentIn:
+        x: -0
+        y: -0
+        z: -9.097439
+      TangentOut:
+        x: 0
+        y: 0
+        z: 9.84872
+      Rotation:
+        value:
+          x: -0.080891855
+          y: 0.9872812
+          z: -0.01656385
+          w: -0.13586073
+    - Position:
+        x: -3.75
+        y: -2.95
+        z: -138.75
+      TangentIn:
+        x: -0
+        y: -0
+        z: -10.278395
+      TangentOut:
+        x: 0
+        y: 0
+        z: 10.322122
+      Rotation:
+        value:
+          x: -0.08900637
+          y: 0.98622113
+          z: -0.016223049
+          w: -0.13850121
+    - Position:
+        x: -11.550003
+        y: -4.55
+        z: -168.75002
+      TangentIn:
+        x: -0
+        y: -0
+        z: -10.611025
+      TangentOut:
+        x: 0
+        y: 0
+        z: 11.27508
+      Rotation:
+        value:
+          x: -0.09029853
+          y: 0.9925091
+          z: -0.0026732646
+          w: -0.08224823
+    - Position:
+        x: -14.100002
+        y: -4.15
+        z: -203.7
+      TangentIn:
+        x: -0
+        y: -0
+        z: -12.457284
+      TangentOut:
+        x: 0
+        y: 0
+        z: 14.254327
+      Rotation:
+        value:
+          x: -0.09184319
+          y: 0.9941732
+          z: 0.020349948
+          w: -0.052632518
+    - Position:
+        x: -20.7
+        y: -1.8499999
+        z: -249.05
+      TangentIn:
+        x: -0
+        y: -0
+        z: -14.594019
+      TangentOut:
+        x: 0
+        y: 0
+        z: 13.329722
+      Rotation:
+        value:
+          x: -0.09461508
+          y: 0.9911356
+          z: 0.041712113
+          w: -0.08341751
+    - Position:
+        x: -28.45
+        y: 1.35
+        z: -286.40002
+      TangentIn:
+        x: -0
+        y: -0
+        z: -12.646649
+      TangentOut:
+        x: 0
+        y: 0
+        z: 12.641815
+      Rotation:
+        value:
+          x: -0.08999362
+          y: 0.9934073
+          z: 0.06301418
+          w: -0.032746203
+    - Position:
+        x: -26.500004
+        y: 7.2
+        z: -324.15002
+      TangentIn:
+        x: -0
+        y: -0
+        z: -11.609558
+      TangentOut:
+        x: 0
+        y: 0
+        z: 9.786534
+      Rotation:
+        value:
+          x: -0.08877809
+          y: 0.9893786
+          z: 0.08304316
+          w: 0.07970132
+    - Position:
+        x: -20.150005
+        y: 12.7
+        z: -350
+      TangentIn:
+        x: -0
+        y: -0
+        z: -10.251931
+      TangentOut:
+        x: 0
+        y: 0
+        z: 13.419843
+      Rotation:
+        value:
+          x: -0.087693855
+          y: 0.9874279
+          z: 0.090823226
+          w: 0.09511565
+    - Position:
+        x: -15.050003
+        y: 21.500002
+        z: -395.45
+      TangentIn:
+        x: -0
+        y: -0
+        z: -14.433847
+      TangentOut:
+        x: 0
+        y: 0
+        z: 13.096829
+      Rotation:
+        value:
+          x: -0.10348687
+          y: 0.9906937
+          z: 0.077767454
+          w: -0.042056054
+    - Position:
+        x: -26.7
+        y: 25.150002
+        z: -431.80005
+      TangentIn:
+        x: -0
+        y: -0
+        z: -13.152089
+      TangentOut:
+        x: 0
+        y: 0
+        z: 14.037733
+      Rotation:
+        value:
+          x: -0.10644385
+          y: 0.9747721
+          z: 0.055361226
+          w: -0.18821311
+    - Position:
+        x: -46.400005
+        y: 26.900002
+        z: -470.75
+      TangentIn:
+        x: -0
+        y: -0
+        z: -14.096463
+      TangentOut:
+        x: 0
+        y: 0
+        z: 13.281023
+      Rotation:
+        value:
+          x: -0.09962921
+          y: 0.959966
+          z: 0.034694497
+          w: -0.25949118
+    - Position:
+        x: -68
+        y: 26.500002
+        z: -502.95
+      TangentIn:
+        x: -0
+        y: -0
+        z: -3.8775773
+      TangentOut:
+        x: 0
+        y: 0
+        z: 3.8775773
+      Rotation:
+        value:
+          x: -0.10175891
+          y: 0.9512376
+          z: 0.025607292
+          w: -0.2900628
+    m_MetaData:
+    - Mode: 0
+      Tension: 0.5
+    - Mode: 0
+      Tension: 0.5
+    - Mode: 0
+      Tension: 0.5
+    - Mode: 0
+      Tension: 0.5
+    - Mode: 0
+      Tension: 0.5
+    - Mode: 0
+      Tension: 0.5
+    - Mode: 0
+      Tension: 0.5
+    - Mode: 0
+      Tension: 0.5
+    - Mode: 0
+      Tension: 0.5
+    - Mode: 0
+      Tension: 0.5
+    - Mode: 0
+      Tension: 0.5
+    - Mode: 0
+      Tension: 0.5
+    - Mode: 0
+      Tension: 0.5
+    - Mode: 0
+      Tension: 0.5
+    - Mode: 0
+      Tension: 0.5
+    - Mode: 0
+      Tension: 0.5
+    m_Closed: 0
+    m_IntData:
+      m_Data: []
+    m_FloatData:
+      m_Data: []
+    m_Float4Data:
+      m_Data: []
+    m_ObjectData:
+      m_Data: []
+  m_Knots:
+    m_KnotsLink: []
+--- !u!4 &929237001
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 929236994}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -44.8, y: 0, z: -100.8}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &929237002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 929236994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 417553ddb1149ce43b928b2148a76a18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Rail
+  spline: {fileID: 929237000}
+  maxSpeed: 300
+  enableTriggerAttach: 1
+  attachRadius: 1
 --- !u!1 &941961241
 GameObject:
   m_ObjectHideFlags: 0
@@ -2930,6 +3054,642 @@ Transform:
   - {fileID: 941961242}
   m_Father: {fileID: 1181911736}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1343935910
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1343935915}
+  - component: {fileID: 1343935914}
+  - component: {fileID: 1343935913}
+  - component: {fileID: 1343935912}
+  - component: {fileID: 1343935911}
+  - component: {fileID: 1343935918}
+  - component: {fileID: 1343935917}
+  - component: {fileID: 1343935916}
+  m_Layer: 0
+  m_Name: Spline (1)
+  m_TagString: HomingTarget
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1343935911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1343935910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5355e99533a75bb499fe5018a3b4143e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Luci.HomingTarget
+  reticlePosition: {fileID: 1343935915}
+--- !u!114 &1343935912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1343935910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 417553ddb1149ce43b928b2148a76a18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Rail
+  spline: {fileID: 1343935914}
+  maxSpeed: 300
+  enableTriggerAttach: 1
+  attachRadius: 1
+--- !u!65 &1343935913
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1343935910}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.5000156, y: 0.5, z: 185.00003}
+  m_Center: {x: 0.000000029802322, y: 0, z: 92.500015}
+--- !u!114 &1343935914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1343935910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dab5c7d4c32e743048dfca98e2d5914f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Splines::UnityEngine.Splines.SplineContainer
+  m_Spline:
+    m_EditModeType: 1
+    m_Knots: []
+    m_MetaData: []
+    m_Closed: 0
+    m_IntData:
+      m_Data: []
+    m_FloatData:
+      m_Data: []
+    m_Float4Data:
+      m_Data: []
+    m_ObjectData:
+      m_Data: []
+  m_Splines:
+  - m_EditModeType: 1
+    m_Knots:
+    - Position:
+        x: 0
+        y: 0
+        z: 0
+      TangentIn:
+        x: -0
+        y: -0
+        z: -2.5
+      TangentOut:
+        x: 0
+        y: 0
+        z: 2.5
+      Rotation:
+        value:
+          x: 0
+          y: 0
+          z: 0
+          w: 1
+    - Position:
+        x: 0
+        y: 0
+        z: 25
+      TangentIn:
+        x: -0
+        y: -0
+        z: -8.333333
+      TangentOut:
+        x: 0
+        y: 0
+        z: 8.333333
+      Rotation:
+        value:
+          x: 0
+          y: 0
+          z: 0
+          w: 1
+    - Position:
+        x: 0
+        y: 0
+        z: 50
+      TangentIn:
+        x: 0
+        y: 0
+        z: -2.5
+      TangentOut:
+        x: 0
+        y: 0
+        z: 2.5
+      Rotation:
+        value:
+          x: 0
+          y: 0
+          z: 0
+          w: 1
+    - Position:
+        x: 0
+        y: 0
+        z: 57.5
+      TangentIn:
+        x: 0
+        y: 0
+        z: -2.5
+      TangentOut:
+        x: 0
+        y: 0
+        z: 2.5
+      Rotation:
+        value:
+          x: 0
+          y: 0
+          z: 0
+          w: 1
+    - Position:
+        x: 0
+        y: 0
+        z: 65
+      TangentIn:
+        x: 0
+        y: 0
+        z: -2.5
+      TangentOut:
+        x: 0
+        y: 0
+        z: 2.5
+      Rotation:
+        value:
+          x: 0
+          y: 0
+          z: 0
+          w: 1
+    - Position:
+        x: 0
+        y: 0
+        z: 72.5
+      TangentIn:
+        x: 0
+        y: 0
+        z: -2.5
+      TangentOut:
+        x: 0
+        y: 0
+        z: 2.5
+      Rotation:
+        value:
+          x: 0
+          y: 0
+          z: 0
+          w: 1
+    - Position:
+        x: 0
+        y: 0
+        z: 80
+      TangentIn:
+        x: 0
+        y: 0
+        z: -2.5
+      TangentOut:
+        x: 0
+        y: 0
+        z: 2.5
+      Rotation:
+        value:
+          x: 0
+          y: 0
+          z: 0
+          w: 1
+    - Position:
+        x: 0
+        y: 0
+        z: 87.5
+      TangentIn:
+        x: 0
+        y: 0
+        z: -2.5
+      TangentOut:
+        x: 0
+        y: 0
+        z: 2.5
+      Rotation:
+        value:
+          x: 0
+          y: 0
+          z: 0
+          w: 1
+    - Position:
+        x: 0
+        y: 0
+        z: 95
+      TangentIn:
+        x: 0
+        y: 0
+        z: -2.5
+      TangentOut:
+        x: 0
+        y: 0
+        z: 2.5
+      Rotation:
+        value:
+          x: 0
+          y: 0
+          z: 0
+          w: 1
+    - Position:
+        x: 0
+        y: 0
+        z: 102.5
+      TangentIn:
+        x: 0
+        y: 0
+        z: -2.5
+      TangentOut:
+        x: 0
+        y: 0
+        z: 2.5
+      Rotation:
+        value:
+          x: 0
+          y: 0
+          z: 0
+          w: 1
+    - Position:
+        x: 0
+        y: 0
+        z: 110
+      TangentIn:
+        x: 0
+        y: 0
+        z: -2.5
+      TangentOut:
+        x: 0
+        y: 0
+        z: 2.5
+      Rotation:
+        value:
+          x: 0
+          y: 0
+          z: 0
+          w: 1
+    - Position:
+        x: 0
+        y: 0
+        z: 117.5
+      TangentIn:
+        x: 0
+        y: 0
+        z: -2.5
+      TangentOut:
+        x: 0
+        y: 0
+        z: 2.5
+      Rotation:
+        value:
+          x: 0
+          y: 0
+          z: 0
+          w: 1
+    - Position:
+        x: 0
+        y: 0
+        z: 125
+      TangentIn:
+        x: 0
+        y: 0
+        z: -2.5
+      TangentOut:
+        x: 0
+        y: 0
+        z: 2.5
+      Rotation:
+        value:
+          x: 0
+          y: 0
+          z: 0
+          w: 1
+    - Position:
+        x: 0
+        y: 0
+        z: 132.5
+      TangentIn:
+        x: 0
+        y: 0
+        z: -2.5
+      TangentOut:
+        x: 0
+        y: 0
+        z: 2.5
+      Rotation:
+        value:
+          x: 0
+          y: 0
+          z: 0
+          w: 1
+    - Position:
+        x: -0.0000076293945
+        y: 0
+        z: 140.00003
+      TangentIn:
+        x: 0
+        y: 0
+        z: -2.5
+      TangentOut:
+        x: 0
+        y: 0
+        z: 2.5
+      Rotation:
+        value:
+          x: 0
+          y: -0.000000059604645
+          z: -0
+          w: 1
+    - Position:
+        x: -0.0000076293945
+        y: 0
+        z: 147.50003
+      TangentIn:
+        x: 0
+        y: 0
+        z: -2.5000002
+      TangentOut:
+        x: 0
+        y: 0
+        z: 2.5000002
+      Rotation:
+        value:
+          x: 0
+          y: -0.00000008940698
+          z: -0
+          w: 1
+    - Position:
+        x: -0.0000076293945
+        y: 0
+        z: 155.00003
+      TangentIn:
+        x: 0
+        y: 0
+        z: -2.5000002
+      TangentOut:
+        x: 0
+        y: 0
+        z: 2.5000002
+      Rotation:
+        value:
+          x: 0
+          y: -0.00000011920929
+          z: -0
+          w: 1
+    - Position:
+        x: -0.0000076293945
+        y: 0
+        z: 162.50003
+      TangentIn:
+        x: 0
+        y: 0
+        z: -2.5000002
+      TangentOut:
+        x: 0
+        y: 0
+        z: 2.5000002
+      Rotation:
+        value:
+          x: 0
+          y: -0.00000014901161
+          z: -0
+          w: 1
+    - Position:
+        x: 0.0000076293945
+        y: 0
+        z: 170.00003
+      TangentIn:
+        x: 0
+        y: 0
+        z: -2.5000002
+      TangentOut:
+        x: 0
+        y: 0
+        z: 2.5000002
+      Rotation:
+        value:
+          x: 0
+          y: -0.00000014901161
+          z: -0
+          w: 1
+    - Position:
+        x: 0.0000076293945
+        y: 0
+        z: 177.50003
+      TangentIn:
+        x: 0
+        y: 0
+        z: -2.5000002
+      TangentOut:
+        x: 0
+        y: 0
+        z: 2.5000002
+      Rotation:
+        value:
+          x: 0
+          y: -0.00000014901161
+          z: -0
+          w: 1
+    - Position:
+        x: 0
+        y: 0
+        z: 185.00003
+      TangentIn:
+        x: 0
+        y: 0
+        z: -2.5000002
+      TangentOut:
+        x: 0
+        y: 0
+        z: 2.5000002
+      Rotation:
+        value:
+          x: 0
+          y: -0.00000014901161
+          z: -0
+          w: 1
+    m_MetaData:
+    - Mode: 0
+      Tension: 0.5
+    - Mode: 0
+      Tension: 0.5
+    - Mode: 2
+      Tension: 0.5
+    - Mode: 2
+      Tension: 0.5
+    - Mode: 2
+      Tension: 0.5
+    - Mode: 2
+      Tension: 0.5
+    - Mode: 2
+      Tension: 0.5
+    - Mode: 2
+      Tension: 0.5
+    - Mode: 2
+      Tension: 0.5
+    - Mode: 2
+      Tension: 0.5
+    - Mode: 2
+      Tension: 0.5
+    - Mode: 2
+      Tension: 0.5
+    - Mode: 2
+      Tension: 0.5
+    - Mode: 2
+      Tension: 0.5
+    - Mode: 2
+      Tension: 0.5
+    - Mode: 2
+      Tension: 0.5
+    - Mode: 2
+      Tension: 0.5
+    - Mode: 2
+      Tension: 0.5
+    - Mode: 2
+      Tension: 0.5
+    - Mode: 2
+      Tension: 0.5
+    - Mode: 2
+      Tension: 0.5
+    m_Closed: 0
+    m_IntData:
+      m_Data: []
+    m_FloatData:
+      m_Data: []
+    m_Float4Data:
+      m_Data: []
+    m_ObjectData:
+      m_Data: []
+  m_Knots:
+    m_KnotsLink: []
+--- !u!4 &1343935915
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1343935910}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0.7863423, z: -0, w: -0.61779106}
+  m_LocalPosition: {x: -102.85, y: -3.5, z: -93.8}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 256.31, z: 0}
+--- !u!114 &1343935916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1343935910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 222dc08d484f16869bdd89edd9d368fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Splines::UnityEngine.Splines.SplineExtrude
+  m_Container: {fileID: 1343935914}
+  m_TargetMesh: {fileID: 0}
+  m_RebuildOnSplineChange: 1
+  m_RebuildFrequency: 30
+  m_UpdateColliders: 0
+  m_Sides: 8
+  m_SegmentsPerUnit: 4
+  m_Capped: 1
+  m_Radius: 0.25
+  m_Range: {x: 0, y: 1}
+  m_FlipNormals: 0
+  m_Shape:
+    rid: 2377470822711558209
+  references:
+    version: 2
+    RefIds:
+    - rid: 2377470822711558209
+      type: {class: Circle, ns: UnityEngine.Splines.ExtrusionShapes, asm: Unity.Splines}
+      data:
+        m_Sides: 8
+--- !u!23 &1343935917
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1343935910}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1343935918
+MeshFilter:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1343935910}
+  m_Mesh: {fileID: 0}
 --- !u!1 &1389090176
 GameObject:
   m_ObjectHideFlags: 0
@@ -3534,77 +4294,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1623723740}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1700689572
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1700689575}
-  - component: {fileID: 1700689574}
-  - component: {fileID: 1700689573}
-  m_Layer: 0
-  m_Name: Rail
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1700689573
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1700689572}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 417553ddb1149ce43b928b2148a76a18, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Rail
-  spline: {fileID: 548020659}
-  maxSpeed: 300
-  enableTriggerAttach: 1
-  attachRadius: 1
---- !u!65 &1700689574
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1700689572}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!4 &1700689575
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1700689572}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13.95, y: 0.85, z: -2.8}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 548020660}
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1767570442
 GameObject:
   m_ObjectHideFlags: 0
@@ -4395,6 +5084,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Luci-Sonic
       objectReference: {fileID: 0}
+    - target: {fileID: 7503726429590992774, guid: 22546394b3efb6c46a7d5f77231a821a, type: 3}
+      propertyPath: input
+      value: 
+      objectReference: {fileID: 1407933526}
     - target: {fileID: 7583411449861614398, guid: 22546394b3efb6c46a7d5f77231a821a, type: 3}
       propertyPath: m_FillAmount
       value: 1
@@ -4758,4 +5451,5 @@ SceneRoots:
   - {fileID: 1181911736}
   - {fileID: 1968885246}
   - {fileID: 540727329}
-  - {fileID: 1700689575}
+  - {fileID: 929237001}
+  - {fileID: 1343935915}
